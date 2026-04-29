@@ -1,0 +1,92 @@
+name: Drill report
+description: Report a problem with a preview drill
+title: "[Drill report]: "
+labels:
+  - preview
+  - drill-report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report a preview drill issue. Please avoid names, email addresses, usernames, or private repository details.
+
+  - type: input
+    id: drill_id
+    attributes:
+      label: Drill ID
+      placeholder: u3a-private-instance-variable-declaration_v1
+    validations:
+      required: true
+
+  - type: input
+    id: skill_id
+    attributes:
+      label: Skill ID
+      placeholder: u3a-private-instance-variable-declaration
+    validations:
+      required: true
+
+  - type: input
+    id: ap_unit_topic
+    attributes:
+      label: AP unit/topic
+      placeholder: Unit 3 / 3.4 Constructors
+    validations:
+      required: true
+
+  - type: input
+    id: preview_catalog_version
+    attributes:
+      label: Preview catalog version
+      placeholder: preview-static-1.0.0-2026-04-28T22:18:06.422Z
+    validations:
+      required: true
+
+  - type: textarea
+    id: rendered_prompt
+    attributes:
+      label: Rendered prompt
+      description: Paste the exact prompt shown in the preview.
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_seemed_wrong
+    attributes:
+      label: What seemed wrong?
+      description: Briefly describe what looked incorrect.
+      placeholder: The prompt and solution do not match the skill.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_answer
+    attributes:
+      label: Expected answer
+      description: Optional. Share the answer you expected to see if that helps reproduction.
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual_answer
+    attributes:
+      label: Actual answer
+      description: Optional. Share the answer that was shown if that helps reproduction.
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: input
+    id: browser_device
+    attributes:
+      label: Browser / device
+      placeholder: Chrome on macOS, Safari on iPad, Firefox on Windows
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        By submitting, you confirm the report does not include student identity, private URLs, or other private repository material.

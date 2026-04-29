@@ -1,0 +1,3076 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-28T22:18:06.422Z",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitId": "unit-1",
+      "unitName": "Using Objects and Methods",
+      "cedPage": 30,
+      "topics": [
+        {
+          "unitNumber": 1,
+          "unitId": "unit-1",
+          "unitName": "Using Objects and Methods",
+          "topicNumber": "1.3",
+          "topicId": "topic-1.3",
+          "topicName": "Expressions and Output",
+          "cedPage": 40
+        },
+        {
+          "unitNumber": 1,
+          "unitId": "unit-1",
+          "unitName": "Using Objects and Methods",
+          "topicNumber": "1.5",
+          "topicId": "topic-1.5",
+          "topicName": "Casting and Range of Variables",
+          "cedPage": 43
+        },
+        {
+          "unitNumber": 1,
+          "unitId": "unit-1",
+          "unitName": "Using Objects and Methods",
+          "topicNumber": "1.11",
+          "topicId": "topic-1.11",
+          "topicName": "Math Class",
+          "cedPage": 51
+        },
+        {
+          "unitNumber": 1,
+          "unitId": "unit-1",
+          "unitName": "Using Objects and Methods",
+          "topicNumber": "1.15",
+          "topicId": "topic-1.15",
+          "topicName": "String Manipulation",
+          "cedPage": 56
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitId": "unit-2",
+      "unitName": "Selection and Iteration",
+      "cedPage": 60,
+      "topics": [
+        {
+          "unitNumber": 2,
+          "unitId": "unit-2",
+          "unitName": "Selection and Iteration",
+          "topicNumber": "2.7",
+          "topicId": "topic-2.7",
+          "topicName": "while Loops",
+          "cedPage": 74
+        },
+        {
+          "unitNumber": 2,
+          "unitId": "unit-2",
+          "unitName": "Selection and Iteration",
+          "topicNumber": "2.8",
+          "topicId": "topic-2.8",
+          "topicName": "for Loops",
+          "cedPage": 75
+        },
+        {
+          "unitNumber": 2,
+          "unitId": "unit-2",
+          "unitName": "Selection and Iteration",
+          "topicNumber": "2.9",
+          "topicId": "topic-2.9",
+          "topicName": "Implementing Selection and Iteration Algorithms",
+          "cedPage": 76
+        },
+        {
+          "unitNumber": 2,
+          "unitId": "unit-2",
+          "unitName": "Selection and Iteration",
+          "topicNumber": "2.10",
+          "topicId": "topic-2.10",
+          "topicName": "Implementing String Algorithms",
+          "cedPage": 77
+        }
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "unitId": "unit-3",
+      "unitName": "Class Creation",
+      "cedPage": 80,
+      "topics": [
+        {
+          "unitNumber": 3,
+          "unitId": "unit-3",
+          "unitName": "Class Creation",
+          "topicNumber": "3.3",
+          "topicId": "topic-3.3",
+          "topicName": "Anatomy of a Class",
+          "cedPage": 90
+        },
+        {
+          "unitNumber": 3,
+          "unitId": "unit-3",
+          "unitName": "Class Creation",
+          "topicNumber": "3.4",
+          "topicId": "topic-3.4",
+          "topicName": "Constructors",
+          "cedPage": 91
+        },
+        {
+          "unitNumber": 3,
+          "unitId": "unit-3",
+          "unitName": "Class Creation",
+          "topicNumber": "3.5",
+          "topicId": "topic-3.5",
+          "topicName": "Methods: How to Write Them",
+          "cedPage": 92
+        },
+        {
+          "unitNumber": 3,
+          "unitId": "unit-3",
+          "unitName": "Class Creation",
+          "topicNumber": "3.7",
+          "topicId": "topic-3.7",
+          "topicName": "Class Variables and Methods",
+          "cedPage": 95
+        }
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "unitId": "unit-4",
+      "unitName": "Data Collections",
+      "cedPage": 98,
+      "topics": [
+        {
+          "unitNumber": 4,
+          "unitId": "unit-4",
+          "unitName": "Data Collections",
+          "topicNumber": "4.3",
+          "topicId": "topic-4.3",
+          "topicName": "Array Creation and Access",
+          "cedPage": 109
+        },
+        {
+          "unitNumber": 4,
+          "unitId": "unit-4",
+          "unitName": "Data Collections",
+          "topicNumber": "4.4",
+          "topicId": "topic-4.4",
+          "topicName": "Array Traversals",
+          "cedPage": 110
+        },
+        {
+          "unitNumber": 4,
+          "unitId": "unit-4",
+          "unitName": "Data Collections",
+          "topicNumber": "4.8",
+          "topicId": "topic-4.8",
+          "topicName": "ArrayList Methods",
+          "cedPage": 117
+        },
+        {
+          "unitNumber": 4,
+          "unitId": "unit-4",
+          "unitName": "Data Collections",
+          "topicNumber": "4.11",
+          "topicId": "topic-4.11",
+          "topicName": "2D Array Creation and Access",
+          "cedPage": 121
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "unitNumber": 1,
+      "unitId": "unit-1",
+      "unitName": "Using Objects and Methods",
+      "topicNumber": "1.3",
+      "topicId": "topic-1.3",
+      "topicName": "Expressions and Output",
+      "cedPage": 40
+    },
+    {
+      "unitNumber": 1,
+      "unitId": "unit-1",
+      "unitName": "Using Objects and Methods",
+      "topicNumber": "1.5",
+      "topicId": "topic-1.5",
+      "topicName": "Casting and Range of Variables",
+      "cedPage": 43
+    },
+    {
+      "unitNumber": 1,
+      "unitId": "unit-1",
+      "unitName": "Using Objects and Methods",
+      "topicNumber": "1.11",
+      "topicId": "topic-1.11",
+      "topicName": "Math Class",
+      "cedPage": 51
+    },
+    {
+      "unitNumber": 1,
+      "unitId": "unit-1",
+      "unitName": "Using Objects and Methods",
+      "topicNumber": "1.15",
+      "topicId": "topic-1.15",
+      "topicName": "String Manipulation",
+      "cedPage": 56
+    },
+    {
+      "unitNumber": 2,
+      "unitId": "unit-2",
+      "unitName": "Selection and Iteration",
+      "topicNumber": "2.7",
+      "topicId": "topic-2.7",
+      "topicName": "while Loops",
+      "cedPage": 74
+    },
+    {
+      "unitNumber": 2,
+      "unitId": "unit-2",
+      "unitName": "Selection and Iteration",
+      "topicNumber": "2.8",
+      "topicId": "topic-2.8",
+      "topicName": "for Loops",
+      "cedPage": 75
+    },
+    {
+      "unitNumber": 2,
+      "unitId": "unit-2",
+      "unitName": "Selection and Iteration",
+      "topicNumber": "2.9",
+      "topicId": "topic-2.9",
+      "topicName": "Implementing Selection and Iteration Algorithms",
+      "cedPage": 76
+    },
+    {
+      "unitNumber": 2,
+      "unitId": "unit-2",
+      "unitName": "Selection and Iteration",
+      "topicNumber": "2.10",
+      "topicId": "topic-2.10",
+      "topicName": "Implementing String Algorithms",
+      "cedPage": 77
+    },
+    {
+      "unitNumber": 3,
+      "unitId": "unit-3",
+      "unitName": "Class Creation",
+      "topicNumber": "3.3",
+      "topicId": "topic-3.3",
+      "topicName": "Anatomy of a Class",
+      "cedPage": 90
+    },
+    {
+      "unitNumber": 3,
+      "unitId": "unit-3",
+      "unitName": "Class Creation",
+      "topicNumber": "3.4",
+      "topicId": "topic-3.4",
+      "topicName": "Constructors",
+      "cedPage": 91
+    },
+    {
+      "unitNumber": 3,
+      "unitId": "unit-3",
+      "unitName": "Class Creation",
+      "topicNumber": "3.5",
+      "topicId": "topic-3.5",
+      "topicName": "Methods: How to Write Them",
+      "cedPage": 92
+    },
+    {
+      "unitNumber": 3,
+      "unitId": "unit-3",
+      "unitName": "Class Creation",
+      "topicNumber": "3.7",
+      "topicId": "topic-3.7",
+      "topicName": "Class Variables and Methods",
+      "cedPage": 95
+    },
+    {
+      "unitNumber": 4,
+      "unitId": "unit-4",
+      "unitName": "Data Collections",
+      "topicNumber": "4.3",
+      "topicId": "topic-4.3",
+      "topicName": "Array Creation and Access",
+      "cedPage": 109
+    },
+    {
+      "unitNumber": 4,
+      "unitId": "unit-4",
+      "unitName": "Data Collections",
+      "topicNumber": "4.4",
+      "topicId": "topic-4.4",
+      "topicName": "Array Traversals",
+      "cedPage": 110
+    },
+    {
+      "unitNumber": 4,
+      "unitId": "unit-4",
+      "unitName": "Data Collections",
+      "topicNumber": "4.8",
+      "topicId": "topic-4.8",
+      "topicName": "ArrayList Methods",
+      "cedPage": 117
+    },
+    {
+      "unitNumber": 4,
+      "unitId": "unit-4",
+      "unitName": "Data Collections",
+      "topicNumber": "4.11",
+      "topicId": "topic-4.11",
+      "topicName": "2D Array Creation and Access",
+      "cedPage": 121
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "u1a-extracting-the-last-digit",
+      "displayName": "Extracting the Last Digit",
+      "unitId": "unit-1",
+      "topicId": "topic-1.3",
+      "summary": "Assess the modulo pattern for extracting the last digit of a positive integer.",
+      "canonicalSnippet": "{{intVar1}} % 10"
+    },
+    {
+      "skillId": "u1a-grouping-for-an-average",
+      "displayName": "Grouping for an Average",
+      "unitId": "unit-1",
+      "topicId": "topic-1.3",
+      "summary": "Assess whether the student can use parentheses to average two integers correctly.",
+      "canonicalSnippet": "({{intVar1}} + {{intVar2}}) / 2"
+    },
+    {
+      "skillId": "u1b-rounding-a-positive-double",
+      "displayName": "Rounding a Positive Double",
+      "unitId": "unit-1",
+      "topicId": "topic-1.5",
+      "summary": "Assess the standard AP CSA rounding idiom for positive doubles.",
+      "canonicalSnippet": "(int) ({{doubleVar}} + 0.5)"
+    },
+    {
+      "skillId": "u1b-random-integer-from-min-to-max",
+      "displayName": "Random Integer from Min to Max",
+      "unitId": "unit-1",
+      "topicId": "topic-1.11",
+      "summary": "Assess the scale-and-shift pattern for an inclusive integer interval.",
+      "canonicalSnippet": "(int) (Math.random() * ({{intVar2}} - {{intVar1}} + 1)) + {{intVar1}}"
+    },
+    {
+      "skillId": "u1c-last-character-of-a-string",
+      "displayName": "Last Character of a String",
+      "unitId": "unit-1",
+      "topicId": "topic-1.15",
+      "summary": "Assess safe access to the final character as a String.",
+      "canonicalSnippet": "{{stringVar}}.substring({{stringVar}}.length() - 1)"
+    },
+    {
+      "skillId": "u2a-divisibility-check",
+      "displayName": "Divisibility Check",
+      "unitId": "unit-2",
+      "topicId": "topic-2.9",
+      "summary": "Assess the standard factor/divisibility condition.",
+      "canonicalSnippet": "{{intVar1}} % {{intVar2}} == 0"
+    },
+    {
+      "skillId": "u2b-standard-zero-indexed-for-loop-header",
+      "displayName": "Standard Zero-Indexed `for` Loop Header",
+      "unitId": "unit-2",
+      "topicId": "topic-2.8",
+      "summary": "Assess the standard counted-loop header that runs exactly `{{intVar1}}` times.",
+      "canonicalSnippet": "for (int {{intVar2}} = 0; {{intVar2}} < {{intVar1}}; {{intVar2}}++)"
+    },
+    {
+      "skillId": "u2b-while-loop-continuation-condition",
+      "displayName": "`while` Loop Continuation Condition",
+      "unitId": "unit-2",
+      "topicId": "topic-2.7",
+      "summary": "Assess whether the student can express when a `while` loop should keep running.",
+      "canonicalSnippet": "{{intVar1}} < {{intVar2}}"
+    },
+    {
+      "skillId": "u2c-accumulator-update",
+      "displayName": "Accumulator Update",
+      "unitId": "unit-2",
+      "topicId": "topic-2.9",
+      "summary": "Assess the standard running-total update pattern.",
+      "canonicalSnippet": "{{intVar2}} += {{intVar1}};"
+    },
+    {
+      "skillId": "u2c-safe-outer-loop-bound-for-substring-search",
+      "displayName": "Safe Outer Loop Bound for Substring Search",
+      "unitId": "unit-2",
+      "topicId": "topic-2.10",
+      "summary": "Assess the boundary algebra for fixed-length substring search.",
+      "canonicalSnippet": "for (int {{intVar1}} = 0; {{intVar1}} <= {{stringVar1}}.length() - {{stringVar2}}.length(); {{intVar1}}++)"
+    },
+    {
+      "skillId": "u3a-private-instance-variable-declaration",
+      "displayName": "Private Instance Variable Declaration",
+      "unitId": "unit-3",
+      "topicId": "topic-3.3",
+      "summary": "Assess the standard encapsulated field declaration pattern.",
+      "canonicalSnippet": "private {{typeName}} {{variableName1}};"
+    },
+    {
+      "skillId": "u3a-constructor-signature-without-a-return-type",
+      "displayName": "Constructor Signature Without a Return Type",
+      "unitId": "unit-3",
+      "topicId": "topic-3.4",
+      "summary": "Assess the syntax of a constructor header with one parameter.",
+      "canonicalSnippet": "public {{className}}(int {{variableName1}})"
+    },
+    {
+      "skillId": "u3b-mutator-method-header",
+      "displayName": "Mutator Method Header",
+      "unitId": "unit-3",
+      "topicId": "topic-3.5",
+      "summary": "Write a setter/mutator method header.",
+      "canonicalSnippet": "public void {{setterName}}(int {{intVar}}) {"
+    },
+    {
+      "skillId": "u3b-void-method-header-with-parameters",
+      "displayName": "Void Method Header with Parameters",
+      "unitId": "unit-3",
+      "topicId": "topic-3.5",
+      "summary": "Write a void method header with parameters.",
+      "canonicalSnippet": "public void {{methodName}}(int {{intVar}}) {"
+    },
+    {
+      "skillId": "u3c-static-method-header",
+      "displayName": "Static Method Header",
+      "unitId": "unit-3",
+      "topicId": "topic-3.7",
+      "summary": "Assess the header for a public static utility method.",
+      "canonicalSnippet": "public static int {{methodName}}(int {{intVar1}}, int {{intVar2}})"
+    },
+    {
+      "skillId": "u4a-array-length-property",
+      "displayName": "Array Length Property",
+      "unitId": "unit-4",
+      "topicId": "topic-4.3",
+      "summary": "Assess the fixed-size property of an array.",
+      "canonicalSnippet": "{{arrayVar}}.length"
+    },
+    {
+      "skillId": "u4a-enhanced-for-loop-header-for-an-array",
+      "displayName": "Enhanced `for` Loop Header for an Array",
+      "unitId": "unit-4",
+      "topicId": "topic-4.4",
+      "summary": "Assess the standard enhanced `for` loop header for an int array.",
+      "canonicalSnippet": "for (int {{intVar1}} : {{arrayVar}})"
+    },
+    {
+      "skillId": "u4a-modifying-an-array-element",
+      "displayName": "Modifying an Array Element",
+      "unitId": "unit-4",
+      "topicId": "topic-4.3",
+      "summary": "Assess direct assignment into an indexed array slot.",
+      "canonicalSnippet": "{{arrayVar}}[{{intVar2}}] = {{intVar3}};"
+    },
+    {
+      "skillId": "u4b-generic-arraylist-declaration-andor-instantiation",
+      "displayName": "Generic ArrayList Declaration and/or Instantiation",
+      "unitId": "unit-4",
+      "topicId": "topic-4.8",
+      "summary": "Assess generic ArrayList syntax for declaration and/or instantiation across common reference types.",
+      "canonicalSnippet": "ArrayList<{{className}}> {{listVar}} = new ArrayList<{{className}}>();"
+    },
+    {
+      "skillId": "u4b-accessing-an-arraylist-element",
+      "displayName": "Accessing an ArrayList Element",
+      "unitId": "unit-4",
+      "topicId": "topic-4.8",
+      "summary": "Assess the standard element-access method for ArrayLists.",
+      "canonicalSnippet": "{{listVar}}.get({{intVar1}})"
+    },
+    {
+      "skillId": "u4b-inserting-into-an-arraylist-at-a-specific-index",
+      "displayName": "Inserting into an ArrayList at a Specific Index",
+      "unitId": "unit-4",
+      "topicId": "topic-4.8",
+      "summary": "Assess insertion with the two-argument `add` overload.",
+      "canonicalSnippet": "{{listVar}}.add({{intVar1}}, {{intVar3}});"
+    },
+    {
+      "skillId": "u4b-arraylist-append",
+      "displayName": "ArrayList Append",
+      "unitId": "unit-4",
+      "topicId": "topic-4.8",
+      "summary": "Append an element to an ArrayList.",
+      "canonicalSnippet": "{{arrayListVar}}.add({{valueVar}});"
+    },
+    {
+      "skillId": "u4c-2d-array-element-access",
+      "displayName": "2D Array Element Access",
+      "unitId": "unit-4",
+      "topicId": "topic-4.11",
+      "summary": "Assess standard row-then-column access syntax.",
+      "canonicalSnippet": "{{array2DVar}}[{{intVar1}}][{{intVar2}}]"
+    },
+    {
+      "skillId": "u4c-number-of-rows-in-a-2d-array",
+      "displayName": "Number of Rows in a 2D Array",
+      "unitId": "unit-4",
+      "topicId": "topic-4.11",
+      "summary": "Assess that the outer array length gives the row count.",
+      "canonicalSnippet": "{{array2DVar}}.length"
+    }
+  ],
+  "drills": [
+    {
+      "drillId": "u1a_last_digit_v1",
+      "promptTemplate": "Write the expression that extracts the last digit of the positive integer variable {{intVar1}}.",
+      "placeholderTypes": {
+        "intVar1": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\{\\{intVar1\\}\\}\\s*%\\s*10"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Division removes the last digit. Use modulo to keep the remainder.",
+          "pattern": "/"
+        },
+        {
+          "feedback": "Modulo 100 gives the last two digits. Use 10 for the ones place.",
+          "pattern": "%\\s*100"
+        }
+      ],
+      "correctSnippets": [
+        "{{intVar1}} % 10"
+      ],
+      "hintSequence": [
+        "Use the modulo operator (`%`) to find the remainder after division.",
+        "To isolate the ones place (the last digit), you should divide by 10.",
+        "Use the modulo operator with a divisor of 10 to isolate the ones place."
+      ],
+      "skillId": "u1a-extracting-the-last-digit",
+      "tags": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "drillId": "u1a_last_digit_v2",
+      "promptTemplate": "Write the expression that extracts the last digit of the positive integer variable {{intVar1}}.",
+      "placeholderTypes": {
+        "intVar1": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\{\\{intVar1\\}\\}\\s*%\\s*10"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Division removes the last digit. Use modulo to keep the remainder.",
+          "pattern": "/"
+        },
+        {
+          "feedback": "Modulo 100 gives the last two digits. Use 10 for the ones place.",
+          "pattern": "%\\s*100"
+        }
+      ],
+      "correctSnippets": [
+        "{{intVar1}} % 10"
+      ],
+      "hintSequence": [
+        "Use the modulo operator (`%`) to find the remainder after division.",
+        "To isolate the ones place (the last digit), you should divide by 10.",
+        "Use the modulo operator with a divisor of 10 to isolate the ones place."
+      ],
+      "skillId": "u1a-extracting-the-last-digit",
+      "tags": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "drillId": "u1a_avg_v1",
+      "promptTemplate": "Write the expression that calculates the average of the integer variables {{intVar1}} and {{intVar2}}. Do not worry about decimal precision for this drill.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\(\\s*\\{\\{intVar1\\}\\}\\s*\\+\\s*\\{\\{intVar2\\}\\}\\s*\\)\\s*/\\s*2"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use parentheses so the sum happens before the division. Order of operations matters!",
+          "pattern": "^\\{\\{intVar1\\}\\}\\s*\\+\\s*\\{\\{intVar2\\}\\}\\s*/\\s*2$"
+        }
+      ],
+      "correctSnippets": [
+        "({{intVar1}} + {{intVar2}}) / 2"
+      ],
+      "hintSequence": [
+        "Add the two values before dividing by 2.",
+        "Division happens before addition unless you group the sum with parentheses.",
+        "Put the sum in parentheses before dividing by 2."
+      ],
+      "skillId": "u1a-grouping-for-an-average",
+      "tags": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "drillId": "u1a_avg_v2",
+      "promptTemplate": "Write the expression that calculates the average of the integer variables {{intVar1}} and {{intVar2}}. Do not worry about decimal precision for this drill.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\(\\s*\\{\\{intVar1\\}\\}\\s*\\+\\s*\\{\\{intVar2\\}\\}\\s*\\)\\s*/\\s*2"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use parentheses so the sum happens before the division. Order of operations matters!",
+          "pattern": "^\\{\\{intVar1\\}\\}\\s*\\+\\s*\\{\\{intVar2\\}\\}\\s*/\\s*2$"
+        }
+      ],
+      "correctSnippets": [
+        "({{intVar1}} + {{intVar2}}) / 2"
+      ],
+      "hintSequence": [
+        "Add the two values before dividing by 2.",
+        "Division happens before addition unless you group the sum with parentheses.",
+        "Put the sum in parentheses before dividing by 2."
+      ],
+      "skillId": "u1a-grouping-for-an-average",
+      "tags": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "drillId": "cast_round_v1",
+      "promptTemplate": "Write an expression that rounds the double {{doubleVar}} to the nearest integer using casting, after adding 0.5.",
+      "placeholderTypes": {
+        "doubleVar": "doubleVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\(\\s*int\\s*\\)\\s*\\(\\s*{{doubleVar}}\\s*\\+\\s*0.5\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [],
+      "correctSnippets": [
+        "(int)({{doubleVar}} + 0.5)"
+      ],
+      "hintSequence": [
+        "Identify the mathematical operation or cast needed for the expression.",
+        "Use standard arithmetic operators like +, -, *, /, or %.",
+        "Be careful to use parentheses if you need to enforce order of operations."
+      ],
+      "skillId": "u1b-rounding-a-positive-double",
+      "tags": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "drillId": "u1b_round_pos_v2",
+      "promptTemplate": "Write the standard AP-style expression that rounds the positive double variable {{doubleVar}} to the nearest integer.",
+      "placeholderTypes": {
+        "doubleVar": "doubleVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\(int\\)\\s*\\(\\s*\\{\\{doubleVar\\}\\}\\s*\\+\\s*0\\.5\\s*\\)"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Add 0.5 before the cast, not after it. Use parentheses around the whole addition.",
+          "pattern": "\\(int\\)\\s*\\{\\{doubleVar\\}\\}\\s*\\+\\s*0\\.5"
+        },
+        {
+          "feedback": "Use the standard AP casting pattern for this drill.",
+          "pattern": "Math\\.round"
+        }
+      ],
+      "correctSnippets": [
+        "(int) ({{doubleVar}} + 0.5)"
+      ],
+      "hintSequence": [
+        "In AP CSA, you often round a positive double by adding 0.5 and then casting to an `int`.",
+        "The addition must happen BEFORE the cast. Use parentheses to group the addition.",
+        "Add `0.5` before casting to `int`."
+      ],
+      "skillId": "u1b-rounding-a-positive-double",
+      "tags": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "drillId": "u1b_rand_min_max_v1",
+      "promptTemplate": "Write the expression that generates a random integer between {{intVar1}} and {{intVar2}} inclusive.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\(int\\)\\s*\\(\\s*Math\\.random\\(\\)\\s*\\*\\s*\\(\\s*\\{\\{intVar2\\}\\}\\s*-\\s*\\{\\{intVar1\\}\\}\\s*\\+\\s*1\\s*\\)\\s*\\)\\s*\\+\\s*\\{\\{intVar1\\}\\}"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Your range size is missing the + 1 needed for an inclusive range.",
+          "pattern": "\\*\\s*\\(\\s*\\{\\{intVar2\\}\\}\\s*-\\s*\\{\\{intVar1\\}\\}\\s*\\)\\s*\\+\\s*\\{\\{intVar1\\}\\}"
+        },
+        {
+          "feedback": "You must scale the random value and cast to (int).",
+          "pattern": "^\\s*Math\\.random\\(\\)"
+        }
+      ],
+      "correctSnippets": [
+        "(int)(Math.random() * ({{intVar2}} - {{intVar1}} + 1)) + {{intVar1}}"
+      ],
+      "hintSequence": [
+        "The range size is `(max - min + 1)`.",
+        "Multiply `Math.random()` by the range size, cast to `int`, and add the `min` value.",
+        "Scale `Math.random()` by the range, cast to `int`, then add the minimum."
+      ],
+      "skillId": "u1b-random-integer-from-min-to-max",
+      "tags": {
+        "difficulty": "hard"
+      }
+    },
+    {
+      "drillId": "u1b_rand_min_max_v2",
+      "promptTemplate": "Write the expression that generates a random integer between {{intVar1}} and {{intVar2}} inclusive.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\(int\\)\\s*\\(\\s*Math\\.random\\(\\)\\s*\\*\\s*\\(\\s*\\{\\{intVar2\\}\\}\\s*-\\s*\\{\\{intVar1\\}\\}\\s*\\+\\s*1\\s*\\)\\s*\\)\\s*\\+\\s*\\{\\{intVar1\\}\\}"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Your range size is missing the + 1 needed for an inclusive range.",
+          "pattern": "\\*\\s*\\(\\s*\\{\\{intVar2\\}\\}\\s*-\\s*\\{\\{intVar1\\}\\}\\s*\\)\\s*\\+\\s*\\{\\{intVar1\\}\\}"
+        },
+        {
+          "feedback": "You must scale the random value and cast to (int).",
+          "pattern": "^\\s*Math\\.random\\(\\)"
+        }
+      ],
+      "correctSnippets": [
+        "(int)(Math.random() * ({{intVar2}} - {{intVar1}} + 1)) + {{intVar1}}"
+      ],
+      "hintSequence": [
+        "The range size is `(max - min + 1)`.",
+        "Multiply `Math.random()` by the range size, cast to `int`, and add the `min` value.",
+        "Scale `Math.random()` by the range, cast to `int`, then add the minimum."
+      ],
+      "skillId": "u1b-random-integer-from-min-to-max",
+      "tags": {
+        "difficulty": "hard"
+      }
+    },
+    {
+      "drillId": "string_substring_last_char_v1",
+      "promptTemplate": "Write the method call that extracts the final remaining character of the String variable {{stringVar}} as a String, ensuring you calculate its bound programmatically.",
+      "placeholderTypes": {
+        "stringVar": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{stringVar}}\\.substring\\(\\s*{{stringVar}}\\.length\\(\\s*\\)\\s*-\\s*1\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Subtract 1 from the length; a string's final index is length() - 1.",
+          "pattern": "substring\\(\\s*{{stringVar}}\\.length\\(\\)\\s*\\)"
+        }
+      ],
+      "correctSnippets": [
+        "{{stringVar}}.substring({{stringVar}}.length() - 1)"
+      ],
+      "hintSequence": [
+        "Use the length() method and subtract 1 to calculate the last valid index.",
+        "Call the one-parameter substring signature.",
+        "Take a substring starting at the last valid index to get the final character."
+      ],
+      "skillId": "u1c-last-character-of-a-string",
+      "tags": {
+        "concept": "string_methods",
+        "difficulty": "medium",
+        "syntax": "expression"
+      }
+    },
+    {
+      "drillId": "u1_last_char_v1",
+      "promptTemplate": "Write the method call that extracts the last character of the String {{stringVar1}} as a String.",
+      "placeholderTypes": {
+        "stringVar1": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^{{stringVar1}}\\s*\\.\\s*substring\\s*\\(\\s*{{stringVar1}}\\s*\\.\\s*length\\s*\\(\\s*\\)\\s*-\\s*1\\s*\\)$"
+      ],
+      "mistakePatterns": [],
+      "correctSnippets": [
+        "{{stringVar1}}.substring({{stringVar1}}.length() - 1)"
+      ],
+      "hintSequence": [
+        "String indices start at 0.",
+        "The last valid index is one less than the String length.",
+        "Use `length() - 1` in the substring call."
+      ],
+      "skillId": "u1c-last-character-of-a-string",
+      "tags": {
+        "concept": "strings",
+        "level": "basic"
+      }
+    },
+    {
+      "drillId": "u2a_div_v1",
+      "promptTemplate": "Write the boolean expression that checks whether {{value}} is evenly divisible by {{divisor}}.",
+      "placeholderTypes": {
+        "divisor": "intVar",
+        "value": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "\\{\\{value\\}\\}\\s*%\\s*\\{\\{divisor\\}\\}\\s*==\\s*0"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use modulo (%) to test divisibility, not division.",
+          "pattern": "/"
+        }
+      ],
+      "correctSnippets": [
+        "{{value}} % {{divisor}} == 0"
+      ],
+      "hintSequence": [
+        "Use modulo to test the remainder. A divisible value leaves remainder 0.",
+        "A remainder of 0 means the left-hand value is evenly divisible by the divisor."
+      ],
+      "skillId": "u2a-divisibility-check",
+      "tags": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "drillId": "op_modulo_check_v1",
+      "promptTemplate": "Write an expression to determine if the integer {{varName}} is evenly divisible by 2.",
+      "placeholderTypes": {
+        "varName": "variableName"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{varName}}\\s*%\\s*2\\s*==\\s*0\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Remember to use '==' for comparison, not '=' for assignment.",
+          "pattern": "="
+        },
+        {
+          "feedback": "Use the modulus operator '%' to check for remainder, not division '/'.",
+          "pattern": "/"
+        }
+      ],
+      "correctSnippets": [
+        "{{varName}}%2==0"
+      ],
+      "hintSequence": [
+        "Relational expressions evaluate to true or false by comparing values.",
+        "Use operators like >, <, ==, or != to form your condition.",
+        "Combine multiple conditions using logical AND (&&) or OR (||)."
+      ],
+      "skillId": "u2a-divisibility-check",
+      "tags": {
+        "concept": "modulus",
+        "type": "boolean expression"
+      }
+    },
+    {
+      "drillId": "loop_for_start_at_1_v1",
+      "promptTemplate": "Write the header for a `for` loop that uses index variable {{intVar}}, starts at index 1, and goes up to (but not including) the length of the array {{arrayVar}}.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar",
+        "intVar": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar}}\\s*=\\s*1\\s*;\\s*{{intVar}}\\s*<\\s*{{arrayVar}}\\.length\\s*;\\s*{{intVar}}\\+\\+\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar}} = 1; {{intVar}} < {{arrayVar}}.length; {{intVar}}++)"
+      ],
+      "hintSequence": [
+        "Set the initial index to 1.",
+        "Use the standard length-based stopping condition.",
+        "Increment by 1 each time."
+      ],
+      "skillId": "u2b-standard-zero-indexed-for-loop-header",
+      "tags": {
+        "concept": "loops",
+        "difficulty": "medium",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "loop_for_step_2_v1",
+      "promptTemplate": "Write the complete header for a `for` loop that iterates from 0 up to (but not including) the integer {{limitVar}}, incrementing the loop variable {{intVar}} by 2 each time.",
+      "placeholderTypes": {
+        "intVar": "intVar",
+        "limitVar": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar}}\\s*=\\s*0\\s*;\\s*{{intVar}}\\s*<\\s*{{limitVar}}\\s*;\\s*{{intVar}}\\s*\\+=\\s*2\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "The update step must add 2 to the loop variable.",
+          "pattern": "\\+\\+"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar}} = 0; {{intVar}} < {{limitVar}}; {{intVar}} += 2)"
+      ],
+      "hintSequence": [
+        "Initialize {{intVar}} to 0.",
+        "The condition is {{intVar}} < {{limitVar}}.",
+        "Use {{intVar}} += 2 for the update step.",
+        "Use `+= 2` in the update clause."
+      ],
+      "skillId": "u2b-standard-zero-indexed-for-loop-header",
+      "tags": {
+        "concept": "loops",
+        "difficulty": "medium",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "loop_while_boolean_flag_v1",
+      "promptTemplate": "Write the simplest `while` loop header that runs as long as the boolean flag {{booleanVar}} is true.",
+      "placeholderTypes": {
+        "booleanVar": "booleanVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*while\\s*\\(\\s*{{booleanVar}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "A boolean variable is already a condition. No need to compare to true.",
+          "pattern": "==\\s*true"
+        }
+      ],
+      "correctSnippets": [
+        "while ({{booleanVar}})"
+      ],
+      "hintSequence": [
+        "You can use a boolean variable directly as a condition.",
+        "Do not use == true.",
+        "Use the `while` keyword followed by the boolean variable in parentheses."
+      ],
+      "skillId": "u2b-while-loop-continuation-condition",
+      "tags": {
+        "concept": "loops",
+        "difficulty": "medium",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "loop_while_compound_v1",
+      "promptTemplate": "Write the `while` loop header that runs as long as the integer {{intVar}} is less than 10 AND the boolean variable {{booleanVar}} is false.",
+      "placeholderTypes": {
+        "booleanVar": "booleanVar",
+        "intVar": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*while\\s*\\(\\s*{{intVar}}\\s*<\\s*10\\s*&&\\s*!\\s*{{booleanVar}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use && to combine both required conditions.",
+          "pattern": "\\|\\|"
+        }
+      ],
+      "correctSnippets": [
+        "while ({{intVar}} < 10 && !{{booleanVar}})"
+      ],
+      "hintSequence": [
+        "The first part is {{intVar}} < 10.",
+        "The second part is !{{booleanVar}}.",
+        "Combine them using the logical AND (&&) operator."
+      ],
+      "skillId": "u2b-while-loop-continuation-condition",
+      "tags": {
+        "concept": "loops",
+        "difficulty": "medium",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "accumulator_update_v1",
+      "promptTemplate": "Write the statement that adds the current integer value {{intVar1}} to the existing accumulator variable {{intVar2}}.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{intVar2}}\\s*\\+=\\s*{{intVar1}}\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Add the new value to the existing total instead of overwriting it.",
+          "pattern": "{{intVar2}} = {{intVar1}}"
+        }
+      ],
+      "correctSnippets": [
+        "{{intVar2}} += {{intVar1}};"
+      ],
+      "hintSequence": [
+        "Use the += operator for a running total.",
+        "The old value is added to the new one and stored back."
+      ],
+      "skillId": "u2c-accumulator-update",
+      "tags": {
+        "concept": "algorithm",
+        "difficulty": "medium",
+        "syntax": "statement"
+      }
+    },
+    {
+      "drillId": "algo_acc_sum_v1",
+      "promptTemplate": "Inside a loop where {{intVar1}} is the current element and {{intVar2}} is the running total, write the single statement that adds the current value to the total.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{intVar2}}\\s*\\+=\\s*{{intVar1}}\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Add the new value to the existing total instead of overwriting it.",
+          "pattern": "{{intVar2}}\\s*=\\s*{{intVar1}}"
+        }
+      ],
+      "correctSnippets": [
+        "{{intVar2}} += {{intVar1}};"
+      ],
+      "hintSequence": [
+        "Use the compound addition operator (+=).",
+        "Add the element to the accumulator.",
+        "Include a semicolon at the end."
+      ],
+      "skillId": "u2c-accumulator-update",
+      "tags": {
+        "concept": "algorithm",
+        "difficulty": "medium",
+        "syntax": "statement"
+      }
+    },
+    {
+      "drillId": "safe_outer_loop_bound_for_substring_search_v1",
+      "promptTemplate": "Write the `for` loop header that uses loop variable {{intVar1}} and iterates high enough to check all substrings of {{stringVar1}} with the same length as {{stringVar2}} safely.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "stringVar1": "stringVar",
+        "stringVar2": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar1}}\\s*=\\s*0\\s*;\\s*{{intVar1}}\\s*<=\\s*{{stringVar1}}\\s*\\.length\\s*\\(\\s*\\)\\s*-\\s*{{stringVar2}}\\s*\\.length\\s*\\(\\s*\\)\\s*;\\s*{{intVar1}}\\s*\\+\\+\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Running to the very end will cause an IndexOutOfBoundsException if extracting substrings.",
+          "pattern": "< {{stringVar1}}.length\\(\\)"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar1}} = 0; {{intVar1}} <= {{stringVar1}}.length() - {{stringVar2}}.length(); {{intVar1}}++)"
+      ],
+      "hintSequence": [
+        "Stop the loop before the window falls off the end of the string.",
+        "Use <= with length - length."
+      ],
+      "skillId": "u2c-safe-outer-loop-bound-for-substring-search",
+      "tags": {
+        "concept": "algorithm",
+        "difficulty": "medium",
+        "syntax": "statement"
+      }
+    },
+    {
+      "drillId": "safe_outer_loop_bound_for_substring_search_v2",
+      "promptTemplate": "Write a `for` loop header starting at 0 that uses `{{intVar1}}` to safely stop before the window of length `{{stringVar2}}.length()` goes out of bounds when searching `{{stringVar1}}`.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "stringVar1": "stringVar",
+        "stringVar2": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar1}}\\s*=\\s*0\\s*;\\s*{{intVar1}}\\s*<=\\s*{{stringVar1}}\\s*\\.length\\s*\\(\\s*\\)\\s*-\\s*{{stringVar2}}\\s*\\.length\\s*\\(\\s*\\)\\s*;\\s*{{intVar1}}\\s*\\+\\+\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Running to the very end will cause an IndexOutOfBoundsException if extracting substrings.",
+          "pattern": "< {{stringVar1}}.length\\(\\)"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar1}} = 0; {{intVar1}} <= {{stringVar1}}.length() - {{stringVar2}}.length(); {{intVar1}}++)"
+      ],
+      "hintSequence": [
+        "The loop counter represents the start index of each substring.",
+        "Subtract the substring length from the total length to find the limit."
+      ],
+      "skillId": "u2c-safe-outer-loop-bound-for-substring-search",
+      "tags": {
+        "concept": "algorithm",
+        "difficulty": "medium",
+        "syntax": "statement"
+      }
+    },
+    {
+      "drillId": "class_ivar_private_array_v1",
+      "promptTemplate": "Write the statement to declare a private instance variable named {{arrVar}} that holds an array of int values.",
+      "placeholderTypes": {
+        "arrVar": "arrayVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*private\\s+int\\s*\\[\\s*\\]\\s*{{arrVar}}\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Don't forget the square brackets to indicate it is an array.",
+          "pattern": "^\\s*private\\s+int\\s+{{arrVar}}"
+        }
+      ],
+      "correctSnippets": [
+        "private int[] {{arrVar}};"
+      ],
+      "hintSequence": [
+        "You need the private access modifier, the data type representation of an int array, and the variable name.",
+        "An array of ints is represented with square brackets after the primitive type.",
+        "Write private, then int[], followed by the variable name and a semicolon."
+      ],
+      "skillId": "u3a-private-instance-variable-declaration",
+      "tags": {
+        "concept": "encapsulation",
+        "difficulty": "medium",
+        "syntax": "declaration"
+      }
+    },
+    {
+      "drillId": "class_ivar_private_custom_obj_v1",
+      "promptTemplate": "Write the statement to declare a private instance variable named {{objVar}} of the custom type {{className}}.",
+      "placeholderTypes": {
+        "className": "className",
+        "objVar": "objectVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*private\\s+{{className}}\\s+{{objVar}}\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Write the visibility modifier explicitly.",
+          "pattern": "^\\s*{{className}}\\s+{{objVar}}"
+        }
+      ],
+      "correctSnippets": [
+        "private {{className}} {{objVar}};"
+      ],
+      "hintSequence": [
+        "Instance variables should use the appropriate access modifier for encapsulation.",
+        "The type of the variable is the name of the custom class.",
+        "Write private {{className}} {{objVar}} followed by a semicolon."
+      ],
+      "skillId": "u3a-private-instance-variable-declaration",
+      "tags": {
+        "concept": "encapsulation",
+        "difficulty": "easy",
+        "syntax": "declaration"
+      }
+    },
+    {
+      "drillId": "class_constructor_array_arg_v1",
+      "promptTemplate": "Inside the {{className}} class, write the public constructor header that takes an array of double values named {{arrParam}} as its only argument. Do not include braces.",
+      "placeholderTypes": {
+        "arrParam": "arrayVar",
+        "className": "className"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+{{className}}\\s*\\(\\s*double\\s*\\[\\s*\\]\\s*{{arrParam}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "The parameter type should be written as double[].",
+          "pattern": "\\(\\s*double\\s+{{arrParam}}\\s*\\)"
+        },
+        {
+          "feedback": "Constructors do not define return types.",
+          "pattern": "void"
+        }
+      ],
+      "correctSnippets": [
+        "public {{className}}(double[] {{arrParam}})"
+      ],
+      "hintSequence": [
+        "Use the class name for the constructor and do not include a return type.",
+        "Declare the array argument using square brackets after the primitive type.",
+        "Write public {{className}}, followed by the double[] type and the parameter name in parentheses."
+      ],
+      "skillId": "u3a-constructor-signature-without-a-return-type",
+      "tags": {
+        "concept": "constructor",
+        "difficulty": "medium",
+        "syntax": "signature"
+      }
+    },
+    {
+      "drillId": "class_constructor_multiple_args_v1",
+      "promptTemplate": "Inside the {{className}} class, write the public constructor header that takes a String parameter named {{strParam}} followed by an int parameter named {{intParam}}. Do not include braces.",
+      "placeholderTypes": {
+        "className": "className",
+        "intParam": "intVar",
+        "strParam": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+{{className}}\\s*\\(\\s*String\\s+{{strParam}}\\s*,\\s*int\\s+{{intParam}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "A constructor does not specify a return type.",
+          "pattern": "void"
+        },
+        {
+          "feedback": "Make sure to include the parameter types along with their names.",
+          "pattern": "\\(\\s*{{strParam}}\\s*,\\s*{{intParam}}\\s*\\)"
+        }
+      ],
+      "correctSnippets": [
+        "public {{className}}(String {{strParam}}, int {{intParam}})"
+      ],
+      "hintSequence": [
+        "The constructor header specifies the access modifier, class name, and parameter list.",
+        "A constructor never has a return type.",
+        "Put the String parameter first and the int parameter second, separated by a comma."
+      ],
+      "skillId": "u3a-constructor-signature-without-a-return-type",
+      "tags": {
+        "concept": "constructor",
+        "difficulty": "medium",
+        "syntax": "signature"
+      }
+    },
+    {
+      "drillId": "class_setter_string_v1",
+      "promptTemplate": "Write the header for a public mutator (setter) method for a String instance variable named {{stringVar}}. The parameter should have the same name as the variable.",
+      "placeholderTypes": {
+        "stringVar": "stringVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+void\\s+set{{stringVar}}\\(\\s*String\\s+{{stringVar}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "public void set{{stringVar}}(String {{stringVar}})"
+      ],
+      "hintSequence": [
+        "Setters are usually void.",
+        "The method name should start with `set`.",
+        "The parameter is String {{stringVar}}."
+      ],
+      "skillId": "u3b-mutator-method-header",
+      "tags": {
+        "concept": "oop",
+        "difficulty": "hard",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "u3_mutator_header_v1",
+      "promptTemplate": "Write the public method header for a mutator (setter) method named `setAge` that takes parameter(s): `int newAge` and does not return any value.",
+      "placeholderTypes": {},
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+void\\s+setAge\\s*\\(\\s*int\\s*.*\\s*newAge\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [],
+      "correctSnippets": [
+        "public void setAge(int newAge)"
+      ],
+      "hintSequence": [
+        "Mutator methods that change state but do not return a value use the `void` return type.",
+        "The syntax is `public void methodName(Parameters)`."
+      ],
+      "skillId": "u3b-mutator-method-header",
+      "tags": {}
+    },
+    {
+      "drillId": "class_method_multi_param_v1",
+      "promptTemplate": "Write the header for a public method named `updateBounds` that accepts two integer parameters: {{intVar1}} and {{intVar2}} in that order. The method does not return a value.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "intVar2": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+void\\s+updateBounds\\(\\s*int\\s+{{intVar1}}\\s*,\\s*int\\s+{{intVar2}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "public void updateBounds(int {{intVar1}}, int {{intVar2}})"
+      ],
+      "hintSequence": [
+        "The return type for a method that returns nothing is void.",
+        "Place the parameters inside the parentheses, separated by a comma.",
+        "Ensure each parameter has its type (int) declared."
+      ],
+      "skillId": "u3b-void-method-header-with-parameters",
+      "tags": {
+        "concept": "oop",
+        "difficulty": "hard",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "u3_multi_void_header_v1",
+      "promptTemplate": "Write the public void method header for a method named `drawPoint` that takes parameters: `int x, int y`.",
+      "placeholderTypes": {},
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+void\\s+drawPoint\\s*\\(\\s*int\\s*.*\\s*x,\\s*.*\\s*int\\s*.*\\s*y\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [],
+      "correctSnippets": [
+        "public void drawPoint(int x, int y)"
+      ],
+      "hintSequence": [
+        "A void method header includes `public void`, the method name, and then the parameter list in parentheses.",
+        "Separate parameters with commas."
+      ],
+      "skillId": "u3b-void-method-header-with-parameters",
+      "tags": {}
+    },
+    {
+      "drillId": "u3_static_method_header_v1",
+      "promptTemplate": "Write the header for a public static method named {{methodName1}} that returns int and takes (int a, int b). No braces.",
+      "placeholderTypes": {
+        "methodName1": "methodName"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^public\\s+static\\s+int\\s+{{methodName1}}\\s*\\(int\\s+a,\\s*int\\s+b\\)"
+      ],
+      "mistakePatterns": [],
+      "correctSnippets": [
+        "public static int {{methodName1}}(int a, int b)"
+      ],
+      "hintSequence": [
+        "Use public static retType methodName(params)"
+      ],
+      "skillId": "u3c-static-method-header",
+      "tags": {
+        "concept": "static",
+        "level": "intermediate"
+      }
+    },
+    {
+      "drillId": "class_static_method_v1",
+      "promptTemplate": "Write the header for a method named {{methodName}} accessible from anywhere and run from the class (not an instance method) that accepts a double parameter {{paramName}} and returns a double.",
+      "placeholderTypes": {
+        "methodName": "methodName",
+        "paramName": "doubleVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*public\\s+static\\s+double\\s+{{methodName}}\\s*\\(\\s*double\\s+{{paramName}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Don't forget thestatickeyword.",
+          "pattern": "[^s]tatic"
+        },
+        {
+          "feedback": "This method should return adouble.",
+          "pattern": "void"
+        }
+      ],
+      "correctSnippets": [
+        "public static double {{methodName}}(double {{paramName}})"
+      ],
+      "hintSequence": [
+        "Static members belong to the class itself rather than individual objects.",
+        "To access a static method or variable, call it on the class name directly.",
+        "Write the ClassName, a dot, and the member name."
+      ],
+      "skillId": "u3c-static-method-header",
+      "tags": {
+        "concept": "static method",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "array_length_basic_v1",
+      "promptTemplate": "Write the expression that reports the number of elements in the array {{arrayVar}}.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrayVar}}\\.length\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Arrays use .length, while Strings use .length().",
+          "pattern": "\\.length\\(\\)"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrayVar}}.length"
+      ],
+      "hintSequence": [
+        "Arrays have a built-in property for their size."
+      ],
+      "skillId": "u4a-array-length-property",
+      "tags": {
+        "concept": "arrays",
+        "difficulty": "hard",
+        "syntax": "expression"
+      }
+    },
+    {
+      "drillId": "array_length_empty_check_v1",
+      "promptTemplate": "Write the boolean expression that evaluates to true if the array {{arrayVar}} contains no elements.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrayVar}}\\.length\\s*==\\s*0\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrayVar}}.length == 0"
+      ],
+      "hintSequence": [
+        "An empty array has a length of 0.",
+        "Compare the length property to 0 using ==."
+      ],
+      "skillId": "u4a-array-length-property",
+      "tags": {
+        "concept": "arrays",
+        "difficulty": "hard",
+        "syntax": "expression"
+      }
+    },
+    {
+      "drillId": "enhanced_for_loop_header_for_an_array_v1",
+      "promptTemplate": "Write the enhanced `for` loop header that traverses the integer array {{arrayVar}} using {{intVar1}}.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar",
+        "intVar1": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar1}}\\s*:\\s*{{arrayVar}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use a colon (:), not a semicolon, in an enhanced for loop.",
+          "pattern": ";"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar1}} : {{arrayVar}})"
+      ],
+      "hintSequence": [
+        "Enhanced for loops use a colon (:).",
+        "Declare the element type (int)."
+      ],
+      "skillId": "u4a-enhanced-for-loop-header-for-an-array",
+      "tags": {
+        "concept": "loop",
+        "difficulty": "easy",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "loop_foreach_int_array_v1",
+      "promptTemplate": "Write the complete header for an enhanced `for` (for-each) loop that iterates through every element in the `int[]` array {{arrayVar}}, using the local variable {{intVar}}.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar",
+        "intVar": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*for\\s*\\(\\s*int\\s+{{intVar}}\\s*:\\s*{{arrayVar}}\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Enhanced for loops use a colon (:) to separate the variable and the collection.",
+          "pattern": ";"
+        }
+      ],
+      "correctSnippets": [
+        "for (int {{intVar}} : {{arrayVar}})"
+      ],
+      "hintSequence": [
+        "An enhanced for loop uses the colon (:) notation.",
+        "Specify the element type (int) and a local name.",
+        "Then provide the collection or array to traverse."
+      ],
+      "skillId": "u4a-enhanced-for-loop-header-for-an-array",
+      "tags": {
+        "concept": "loops",
+        "difficulty": "medium",
+        "syntax": "header"
+      }
+    },
+    {
+      "drillId": "array_update_elem_v1",
+      "promptTemplate": "Write the statement that sets the element at index `0` of the array {{arrayVar}} to the value {{intVar}}.",
+      "placeholderTypes": {
+        "arrayVar": "arrayVar",
+        "intVar": "intVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrayVar}}\\s*\\[\\s*0\\s*\\]\\s*=\\s*{{intVar}}\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrayVar}}[0] = {{intVar}};"
+      ],
+      "hintSequence": [
+        "Access index 0 using [0].",
+        "Use the assignment operator (=).",
+        "Terminate the statement with a semicolon."
+      ],
+      "skillId": "u4a-modifying-an-array-element",
+      "tags": {
+        "concept": "arrays",
+        "difficulty": "hard",
+        "syntax": "statement"
+      }
+    },
+    {
+      "drillId": "array_modify_v1",
+      "promptTemplate": "Write the statement to change the value of the element at index {{indexVar}} in array {{arrName}} to the String literal \"{{stringLiteral}}\".",
+      "placeholderTypes": {
+        "arrName": "arrayStringVar",
+        "indexVar": "intVar",
+        "stringLiteral": "stringLiteral"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrName}}\\s*\\[\\s*{{indexVar}}\\s*\\]\\s*=\\s*\\\"{{stringLiteral}}\\\"\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Arrays use assignment=with bracket notation[]to modify elements, not a.set()method.",
+          "pattern": "\\.set"
+        },
+        {
+          "feedback": "Statements usually end with a semicolon ';'.",
+          "pattern": "[^;]$"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrName}}[{{indexVar}}]=\"{{stringLiteral}}\";"
+      ],
+      "hintSequence": [
+        "Array elements are accessed using square brackets and a zero-based index.",
+        "To update an element, put the array access expression on the left side of an assignment.",
+        "Write the array name followed by the index in brackets."
+      ],
+      "skillId": "u4a-modifying-an-array-element",
+      "tags": {
+        "concept": "modification",
+        "syntax": "assignment"
+      }
+    },
+    {
+      "drillId": "arraylist_declare_boolean_v1",
+      "promptTemplate": "Write the complete statement that declares a new `ArrayList` named {{listVar}} that stores `Boolean` objects.",
+      "placeholderTypes": {
+        "listVar": "objectVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*ArrayList\\s*<\\s*Boolean\\s*>\\s*{{listVar}}\\s*=\\s*new\\s+ArrayList\\s*<\\s*Boolean\\s*>\\s*\\(\\s*\\)\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "ArrayList<Boolean> {{listVar}} = new ArrayList<Boolean>();"
+      ],
+      "hintSequence": [
+        "Use the provided class name `Boolean` within the generic angle brackets.",
+        "Remember to use the `new` keyword followed by the constructor call.",
+        "Include both the declaration on the left and the instantiation on the right."
+      ],
+      "skillId": "u4b-generic-arraylist-declaration-andor-instantiation",
+      "tags": {
+        "concept": "arraylists",
+        "difficulty": "hard",
+        "syntax": "initialization"
+      }
+    },
+    {
+      "drillId": "arraylist_declare_custom_v1",
+      "promptTemplate": "Write the statement that declares and instantiates an `ArrayList` of {{className}} objects named {{listVar}}.",
+      "placeholderTypes": {
+        "className": "className",
+        "listVar": "objectVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*ArrayList\\s*<\\s*{{className}}\\s*>\\s*{{listVar}}\\s*=\\s*new\\s+ArrayList\\s*<\\s*{{className}}\\s*>\\s*\\(\\s*\\)\\s*;\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Match the required syntax.",
+          "pattern": "^$"
+        }
+      ],
+      "correctSnippets": [
+        "ArrayList<{{className}}> {{listVar}} = new ArrayList<{{className}}>();"
+      ],
+      "hintSequence": [
+        "Use the provided class name `{{className}}` within the generic angle brackets.",
+        "Remember to use the `new` keyword followed by the constructor call.",
+        "Include both the declaration on the left and the instantiation on the right."
+      ],
+      "skillId": "u4b-generic-arraylist-declaration-andor-instantiation",
+      "tags": {
+        "concept": "arraylists",
+        "difficulty": "hard",
+        "syntax": "initialization"
+      }
+    },
+    {
+      "drillId": "u4b_get_v1",
+      "promptTemplate": "Write the expression that gets the first element from `{{list}}`.",
+      "placeholderTypes": {
+        "list": "arrayListVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\{\\{list\\}\\}\\.\\s*get\\s*\\(\\s*0\\s*\\)\\s*;?\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use .get(index) for ArrayLists. Square brackets [] are only for arrays.",
+          "pattern": "\\[.*\\]"
+        },
+        {
+          "feedback": "Use parentheses () with the .get method, not square brackets.",
+          "pattern": "\\.get\\[.*\\]"
+        }
+      ],
+      "correctSnippets": [
+        "{{list}}.get(0)"
+      ],
+      "hintSequence": [
+        "The first element is always at index 0.",
+        "Remember that ArrayLists are zero-indexed, meaning the first slot is at index 0."
+      ],
+      "skillId": "u4b-accessing-an-arraylist-element",
+      "tags": {}
+    },
+    {
+      "drillId": "arraylist_get_eq_expr_v1",
+      "promptTemplate": "Write an expression that evaluates to true if the element at index {{iVar}} equals the one at index {{jVar}} in the ArrayList {{listName}}.",
+      "placeholderTypes": {
+        "iVar": "positiveIntLiteral",
+        "jVar": "positiveIntLiteral",
+        "listName": "arrayListVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{listName}}\\.get\\s*\\(\\s*{{iVar}}\\s*\\)\\.equals\\s*\\(\\s*{{listName}}\\.get\\s*\\(\\s*{{jVar}}\\s*\\)\\s*\\)\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "'==' compares references; use equals() for object content.",
+          "pattern": "=="
+        },
+        {
+          "feedback": "Always comparing first; check indices.",
+          "pattern": "get\\(\\s0\\s\\)"
+        }
+      ],
+      "correctSnippets": [
+        "{{listName}}.get({{iVar}}).equals({{listName}}.get({{jVar}}))"
+      ],
+      "hintSequence": [
+        "Use the `.get(index)` method to retrieve values from the ArrayList.",
+        "Objects should be compared using the `.equals()` method rather than `==`.",
+        "Chain the `.equals()` call onto the first `.get()` result."
+      ],
+      "skillId": "u4b-accessing-an-arraylist-element",
+      "tags": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "drillId": "arraylist_insert_v1",
+      "promptTemplate": "In the ArrayList {{list}}, write the statement that inserts the String literal \"{{stringLiteral}}\" at index `0`, shifting existing elements to the right.",
+      "placeholderTypes": {
+        "list": "arrayListVar",
+        "stringLiteral": "stringLiteral"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\{\\{list\\}\\}\\.add\\s*\\(\\s*0\\s*,\\s*\"{{stringLiteral}}\"\\s*\\)\\s*;?\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use .add(index, value) to insert. .set replaces an existing element without shifting.",
+          "pattern": "\\.set\\("
+        }
+      ],
+      "correctSnippets": [
+        "{{list}}.add(0, \"{{stringLiteral}}\");"
+      ],
+      "hintSequence": [
+        "To insert at a specific index without removing existing elements, use `.add(index, value)`.",
+        "This operation shifts the element currently at that index (and all subsequent elements) to the right.",
+        {
+          "Remember the argument order": "first the index, then the object to insert."
+        }
+      ],
+      "skillId": "u4b-inserting-into-an-arraylist-at-a-specific-index",
+      "tags": {}
+    },
+    {
+      "drillId": "u4b_insert_v1",
+      "promptTemplate": "In the ArrayList {{list}}, write the statement that inserts the String literal \"{{stringLiteral}}\" at index `0`, shifting existing elements to the right.",
+      "placeholderTypes": {
+        "list": "arrayListVar",
+        "stringLiteral": "stringLiteral"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\{\\{list\\}\\}\\.\\s*add\\s*\\(\\s*0\\s*,\\s*\\\"\\{\\{stringLiteral\\}\\}\\\"\\s*\\)\\s*;?\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use .add(index, value) to insert. .set replaces an existing element without shifting.",
+          "pattern": "\\.set\\("
+        }
+      ],
+      "correctSnippets": [
+        "{{list}}.add(0, \"{{stringLiteral}}\");"
+      ],
+      "hintSequence": [
+        "To insert at a specific index, use `.add(index, value)`.",
+        "This shifts all subsequent elements to the right.",
+        {
+          "Check the order of arguments": "index first, then value."
+        }
+      ],
+      "skillId": "u4b-inserting-into-an-arraylist-at-a-specific-index",
+      "tags": {}
+    },
+    {
+      "drillId": "arraylist_append_v1",
+      "promptTemplate": "Write the statement that appends {{intVar1}} to the end of the ArrayList {{list}}.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "list": "arrayListVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\{\\{list\\}\\}\\.add\\s*\\(\\s*\\{\\{intVar1\\}\\}\\s*\\)\\s*;?\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "While add(size(), val) works, the standard way to append is simply add(val).",
+          "pattern": "\\{\\{list\\}\\}\\.add\\s*\\(\\s*\\{\\{list\\}\\}\\.size\\s*\\(\\s*\\)\\s*,"
+        }
+      ],
+      "correctSnippets": [
+        "{{list}}.add({{intVar1}});"
+      ],
+      "hintSequence": [
+        "To append to the end, use the `.add(value)` method with a single argument.",
+        "This automatically increases the size and puts the element at the last position."
+      ],
+      "skillId": "u4b-arraylist-append",
+      "tags": {}
+    },
+    {
+      "drillId": "u4b_append_v1",
+      "promptTemplate": "Write the statement that appends {{intVar1}} to the end of the ArrayList {{list}}.",
+      "placeholderTypes": {
+        "intVar1": "intVar",
+        "list": "arrayListVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*\\{\\{list\\}\\}\\.add\\s*\\(\\s*\\{\\{intVar1\\}\\}\\s*\\)\\s*;?\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "While add(size(), val) works, the standard way to append is simply add(val).",
+          "pattern": "\\{\\{list\\}\\}\\.add\\s*\\(\\s*\\{\\{list\\}\\}\\.size\\s*\\(\\s*\\)\\s*,"
+        }
+      ],
+      "correctSnippets": [
+        "{{list}}.add({{intVar1}});"
+      ],
+      "hintSequence": [
+        "To append to the end, use the `.add(value)` method with a single argument.",
+        "This automatically increases the size and puts the element at the last position."
+      ],
+      "skillId": "u4b-arraylist-append",
+      "tags": {}
+    },
+    {
+      "drillId": "array2d_access_expr_board_v1",
+      "promptTemplate": "Write an expression for the element in board-like 2D array {{arrName}} at row {{rowVar}} and column {{colVar}}.",
+      "placeholderTypes": {
+        "arrName": "array2DVar",
+        "colVar": "colVar",
+        "rowVar": "rowVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrName}}\\s*\\[\\s*{{rowVar}}\\s*\\]\\s*\\[\\s*{{colVar}}\\s*\\]\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use separate brackets for row and column.",
+          "pattern": ","
+        },
+        {
+          "feedback": "Use square brackets for 2D array access.",
+          "pattern": "\\("
+        },
+        {
+          "feedback": "A 2D array access needs both a row and a column index.",
+          "pattern": "^\\s*{{arrName}}\\s*\\[\\s*{{rowVar}}\\s*\\]\\s*$"
+        },
+        {
+          "feedback": "Use row first and column second.",
+          "pattern": "^\\s*{{arrName}}\\s*\\[\\s*{{colVar}}\\s*\\]\\s*\\[\\s*{{rowVar}}\\s*\\]"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrName}}[{{rowVar}}][{{colVar}}]"
+      ],
+      "hintSequence": [
+        "Accessing a cell in a 2D array requires two sets of square brackets.",
+        "The first bracket always specifies the row, and the second specifies the column."
+      ],
+      "skillId": "u4c-2d-array-element-access",
+      "tags": {
+        "concept": "access",
+        "difficulty": "hard",
+        "focus": "cell",
+        "syntax": "expression"
+      }
+    },
+    {
+      "drillId": "array2d_access_expr_entry_v1",
+      "promptTemplate": "Write an expression for the entry in {{arrName}} at row {{rowVar}}, column {{colVar}}.",
+      "placeholderTypes": {
+        "arrName": "array2DVar",
+        "colVar": "colVar",
+        "rowVar": "rowVar"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrName}}\\s*\\[\\s*{{rowVar}}\\s*\\]\\s*\\[\\s*{{colVar}}\\s*\\]\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "Use separate brackets for row and column.",
+          "pattern": ","
+        },
+        {
+          "feedback": "Use square brackets for 2D array access.",
+          "pattern": "\\("
+        },
+        {
+          "feedback": "A 2D array access needs both a row and a column index.",
+          "pattern": "^\\s*{{arrName}}\\s*\\[\\s*{{rowVar}}\\s*\\]\\s*$"
+        },
+        {
+          "feedback": "Use row first and column second.",
+          "pattern": "^\\s*{{arrName}}\\s*\\[\\s*{{colVar}}\\s*\\]\\s*\\[\\s*{{rowVar}}\\s*\\]"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrName}}[{{rowVar}}][{{colVar}}]"
+      ],
+      "hintSequence": [
+        "Accessing a cell in a 2D array requires two sets of square brackets.",
+        "The first bracket always specifies the row, and the second specifies the column."
+      ],
+      "skillId": "u4c-2d-array-element-access",
+      "tags": {
+        "concept": "access",
+        "difficulty": "easy",
+        "focus": "cell",
+        "syntax": "expression"
+      }
+    },
+    {
+      "drillId": "array2d_has_n_rows_cond_v1",
+      "promptTemplate": "Write a boolean expression that is true when {{arrName}} has exactly {{intVar}} rows.",
+      "placeholderTypes": {
+        "arrName": "array2DVar",
+        "intVar": "positiveIntLiteral"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrName}}\\.length\\s*==\\s*{{intVar}}\\s*$",
+        "^\\s*{{intVar}}\\s*==\\s*{{arrName}}\\.length\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "length is a field, not a method.",
+          "pattern": "length\\s*\\("
+        },
+        {
+          "feedback": "size() is for collections, not arrays.",
+          "pattern": "size\\s*\\("
+        },
+        {
+          "feedback": "Use the outer array length for the number of rows.",
+          "pattern": "\\[\\s*0\\s*\\]\\.length"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrName}}.length == {{intVar}}",
+        "{{intVar}} == {{arrName}}.length"
+      ],
+      "hintSequence": [
+        "A 2D array has a primary length for rows, and each row has its own length for columns.",
+        "Use array.length to get the number of rows.",
+        "Use array[0].length (or the current row) to get the number of columns."
+      ],
+      "skillId": "u4c-number-of-rows-in-a-2d-array",
+      "tags": {
+        "concept": "comparison",
+        "difficulty": "medium",
+        "focus": "rows",
+        "syntax": "condition"
+      }
+    },
+    {
+      "drillId": "array2d_row_count_equals_n_cond_v1",
+      "promptTemplate": "Write a boolean expression that is true when the row count of {{arrName}} equals {{intVar}}.",
+      "placeholderTypes": {
+        "arrName": "array2DVar",
+        "intVar": "positiveIntLiteral"
+      },
+      "validationType": "regex",
+      "correctPatterns": [
+        "^\\s*{{arrName}}\\.length\\s*==\\s*{{intVar}}\\s*$",
+        "^\\s*{{intVar}}\\s*==\\s*{{arrName}}\\.length\\s*$"
+      ],
+      "mistakePatterns": [
+        {
+          "feedback": "length is a field, not a method.",
+          "pattern": "length\\s*\\("
+        },
+        {
+          "feedback": "size() is for collections, not arrays.",
+          "pattern": "size\\s*\\("
+        },
+        {
+          "feedback": "Use the outer array length for the number of rows.",
+          "pattern": "\\[\\s*0\\s*\\]\\.length"
+        }
+      ],
+      "correctSnippets": [
+        "{{arrName}}.length == {{intVar}}",
+        "{{intVar}} == {{arrName}}.length"
+      ],
+      "hintSequence": [
+        "A 2D array has a primary length for rows, and each row has its own length for columns.",
+        "Use array.length to get the number of rows.",
+        "Use array[0].length (or the current row) to get the number of columns."
+      ],
+      "skillId": "u4c-number-of-rows-in-a-2d-array",
+      "tags": {
+        "concept": "comparison",
+        "difficulty": "hard",
+        "focus": "rows",
+        "syntax": "condition"
+      }
+    }
+  ],
+  "randomizationBank": {
+    "array2DVar": [
+      "adjacencyMatrix",
+      "binMatrix",
+      "board",
+      "busSeats",
+      "cardLayout",
+      "chessBoard",
+      "circuitBoard",
+      "cityGrid",
+      "colorBuffer",
+      "connectFour",
+      "containerLayout",
+      "costTable",
+      "cropGrid",
+      "dailySteps",
+      "depthBuffer",
+      "discountMatrix",
+      "distanceMatrix",
+      "floorPlan",
+      "flowMatrix",
+      "gameBoard",
+      "gardenLayout",
+      "gradeBook",
+      "grid",
+      "heatMap",
+      "heightMap",
+      "inputBuffer",
+      "inventorySheet",
+      "levelMap",
+      "lookupTable",
+      "matrix",
+      "matrixData",
+      "memoryGame",
+      "meshData",
+      "monthlySales",
+      "normalMap",
+      "outputBuffer",
+      "palletArrangement",
+      "parkingLot",
+      "pixelData",
+      "pressureGrid",
+      "pricingGrid",
+      "puzzleGrid",
+      "rainfallMatrix",
+      "registerMatrix",
+      "salesMatrix",
+      "scoreMatrix",
+      "seatMap",
+      "seatingChart",
+      "sensorReadings",
+      "shelfArray",
+      "shippingGrid",
+      "spriteSheet",
+      "starMap",
+      "stateTransitionTable",
+      "stencilBuffer",
+      "studentGrades",
+      "studentsByClass",
+      "sudokuGrid",
+      "tableData",
+      "taxTable",
+      "terrainData",
+      "theaterRows",
+      "ticTacToe",
+      "tileMap",
+      "transactionGrid",
+      "truthTable",
+      "uvMap",
+      "votersByDistrict",
+      "warehouseMap",
+      "weatherGrid",
+      "weeklyTemps",
+      "weightMatrix",
+      "windSpeedMap",
+      "workoutLog",
+      "worldMap"
+    ],
+    "arrayListVar": [
+      "accounts",
+      "addresses",
+      "alerts",
+      "appointments",
+      "attachments",
+      "buffer",
+      "categories",
+      "clients",
+      "coins",
+      "collection",
+      "colors",
+      "comments",
+      "components",
+      "contacts",
+      "customers",
+      "emails",
+      "entries",
+      "events",
+      "files",
+      "findings",
+      "fonts",
+      "gems",
+      "grades",
+      "group",
+      "history",
+      "icons",
+      "inventory",
+      "items",
+      "labels",
+      "likes",
+      "links",
+      "list",
+      "log",
+      "matches",
+      "measurements",
+      "members",
+      "messages",
+      "music",
+      "names",
+      "nodeList",
+      "notes",
+      "notifications",
+      "objects",
+      "observations",
+      "orders",
+      "participants",
+      "parts",
+      "paths",
+      "phones",
+      "players",
+      "playlist",
+      "queue",
+      "readings",
+      "records",
+      "results",
+      "schedule",
+      "scores",
+      "skins",
+      "sounds",
+      "stack",
+      "students",
+      "styles",
+      "symbols",
+      "tags",
+      "tasks",
+      "team",
+      "themes",
+      "thumbnails",
+      "todos",
+      "transactions",
+      "types",
+      "units",
+      "urls",
+      "videoClips",
+      "widgets"
+    ],
+    "arrayStringVar": [
+      "categoryTags",
+      "cityNames",
+      "colorHexCodes",
+      "commentBodies",
+      "cookieNames",
+      "countryList",
+      "currencySymbols",
+      "departmentCodes",
+      "dirNames",
+      "emailAddresses",
+      "employeeIds",
+      "errorCodes",
+      "extensionList",
+      "fileList",
+      "fileNameList",
+      "fontNames",
+      "headerFields",
+      "iconPaths",
+      "labelList",
+      "languageCodes",
+      "lines",
+      "localeIds",
+      "mimeTypes",
+      "paramNames",
+      "pathArray",
+      "phoneNumbers",
+      "postTitles",
+      "productSkuList",
+      "secretKeys",
+      "sessionIds",
+      "stateAbbrev",
+      "statusMsgs",
+      "studentNames",
+      "tagNames",
+      "themeList",
+      "timezoneList",
+      "tokenArray",
+      "unitNames",
+      "urlList",
+      "userHandles",
+      "words",
+      "zipCodeList"
+    ],
+    "arrayVar": [
+      "accelerations",
+      "amplitudes",
+      "angles",
+      "areas",
+      "averages",
+      "batches",
+      "biases",
+      "blocks",
+      "buffer",
+      "bufferPool",
+      "capacities",
+      "chunks",
+      "clusters",
+      "coordinates",
+      "currents",
+      "data",
+      "dataBuffer",
+      "deltas",
+      "densities",
+      "descriptors",
+      "durations",
+      "energies",
+      "factors",
+      "fluctuations",
+      "forces",
+      "frames",
+      "frequencies",
+      "groups",
+      "handles",
+      "headers",
+      "heights",
+      "idList",
+      "indices",
+      "items",
+      "jitters",
+      "latencies",
+      "lengths",
+      "list",
+      "loads",
+      "magnitudes",
+      "masses",
+      "maxima",
+      "minima",
+      "offsets",
+      "offsetsArr",
+      "packets",
+      "patterns",
+      "payloads",
+      "phases",
+      "pointers",
+      "powers",
+      "radii",
+      "ratios",
+      "resistances",
+      "results",
+      "samples",
+      "segments",
+      "serialNumbers",
+      "shares",
+      "shifts",
+      "stats",
+      "temperatures",
+      "temps",
+      "thresholds",
+      "throughputs",
+      "timestamps",
+      "totals",
+      "utilizations",
+      "values",
+      "valuesList",
+      "velocities",
+      "voltages",
+      "volumes",
+      "weights",
+      "widths"
+    ],
+    "booleanVar": [
+      "flag",
+      "found",
+      "hasPassed",
+      "isActive",
+      "isAdmin",
+      "isAlive",
+      "isAuth",
+      "isAvailable",
+      "isBusy",
+      "isChecked",
+      "isCompatible",
+      "isCustom",
+      "isDead",
+      "isDefault",
+      "isDirty",
+      "isEdge",
+      "isEmpty",
+      "isEnabled",
+      "isError",
+      "isExternal",
+      "isFailure",
+      "isFinished",
+      "isFull",
+      "isGuest",
+      "isHidden",
+      "isInternal",
+      "isLeaf",
+      "isLoading",
+      "isLocal",
+      "isLocked",
+      "isMatch",
+      "isMember",
+      "isModified",
+      "isNew",
+      "isOffline",
+      "isOld",
+      "isOnline",
+      "isOpen",
+      "isOptional",
+      "isPart",
+      "isPaused",
+      "isPrivate",
+      "isPublic",
+      "isReady",
+      "isReadyNow",
+      "isRemote",
+      "isRequired",
+      "isRoot",
+      "isRunning",
+      "isSaved",
+      "isSelected",
+      "isStarted",
+      "isStopped",
+      "isSuccess",
+      "isSync",
+      "isUnique",
+      "isUnlocked",
+      "isValid",
+      "isVisible",
+      "needsUpdate"
+    ],
+    "className": [
+      "AccountHistory",
+      "AddressBook",
+      "AnalyticsProvider",
+      "Animal",
+      "AnimationTween",
+      "AppConfig",
+      "AudioPlayer",
+      "CacheManager",
+      "Car",
+      "Cat",
+      "ContactList",
+      "CraftingManager",
+      "DataProcessor",
+      "DatabaseManager",
+      "DialogueSystem",
+      "Dog",
+      "ElectricCar",
+      "EventDispatcher",
+      "FileSystemUtils",
+      "Game",
+      "GameState",
+      "GraduateStudent",
+      "HttpClient",
+      "ImageProcessor",
+      "Inventory",
+      "InventorySystem",
+      "Item",
+      "LevelDesigner",
+      "LoggerService",
+      "NotificationCenter",
+      "OrderProcessor",
+      "PayrollSystem",
+      "PhysicsEngine",
+      "PlayerProfile",
+      "Poodle",
+      "ProductInventory",
+      "QuestRegistry",
+      "Rectangle",
+      "ScheduleManager",
+      "ScoreBoard",
+      "SecurityVault",
+      "Shape",
+      "Square",
+      "Student",
+      "TaskScheduler",
+      "TransactionRecord",
+      "UserSession",
+      "ValidationHelper",
+      "VideoRenderer",
+      "Widget"
+    ],
+    "colVar": [
+      "c",
+      "cCoord",
+      "cEnd",
+      "cId",
+      "cIdx",
+      "cLimit",
+      "cOffset",
+      "cPosition",
+      "cStart",
+      "cStep",
+      "col",
+      "colBus",
+      "colCategory",
+      "colColor",
+      "colCount",
+      "colDescriptor",
+      "colDir",
+      "colDisk",
+      "colDoc",
+      "colElement",
+      "colEntry",
+      "colFile",
+      "colFont",
+      "colGroup",
+      "colHandle",
+      "colIcon",
+      "colImage",
+      "colIndex",
+      "colItem",
+      "colIterator",
+      "colKey",
+      "colLabel",
+      "colLink",
+      "colMember",
+      "colMode",
+      "colMusic",
+      "colNode",
+      "colNum",
+      "colPath",
+      "colPin",
+      "colPointer",
+      "colPort",
+      "colRecord",
+      "colSkin",
+      "colSound",
+      "colState",
+      "colStatus",
+      "colStyle",
+      "colTag",
+      "colTheme",
+      "colType",
+      "colValue",
+      "colVideo",
+      "currentCol",
+      "endCol",
+      "longitudeIndex",
+      "startCol",
+      "targetCol",
+      "x",
+      "xCoord"
+    ],
+    "doubleVar": [
+      "altitude",
+      "angle",
+      "area",
+      "average",
+      "azimuth",
+      "balance",
+      "capacitance",
+      "capacity",
+      "currentValue",
+      "density",
+      "depth",
+      "deviation",
+      "discount",
+      "distance",
+      "duration",
+      "elevation",
+      "energy",
+      "factor",
+      "force",
+      "frequency",
+      "gpa",
+      "grade",
+      "height",
+      "humidity",
+      "inductance",
+      "intensity",
+      "interestRate",
+      "interval",
+      "jitter",
+      "latitude",
+      "length",
+      "level",
+      "limit",
+      "longitude",
+      "magnitude",
+      "mass",
+      "offsetValue",
+      "percentage",
+      "period",
+      "phase",
+      "power",
+      "pressure",
+      "price",
+      "radius",
+      "rate",
+      "ratio",
+      "resistance",
+      "scale",
+      "score",
+      "shift",
+      "slope",
+      "subtotal",
+      "tax",
+      "temperature",
+      "threshold",
+      "tilt",
+      "totalValue",
+      "variance",
+      "velocity",
+      "voltage",
+      "volume",
+      "weight",
+      "width"
+    ],
+    "intVar": [
+      "age",
+      "agility",
+      "amount",
+      "attack",
+      "attempts",
+      "balanceAmount",
+      "capacity",
+      "category",
+      "code",
+      "coin",
+      "cooldown",
+      "count",
+      "day",
+      "days",
+      "defense",
+      "door",
+      "end",
+      "enemy",
+      "errors",
+      "experience",
+      "first",
+      "gem",
+      "group",
+      "health",
+      "highscore",
+      "hits",
+      "hour",
+      "id",
+      "idNumber",
+      "index",
+      "intellect",
+      "items",
+      "key",
+      "last",
+      "lastIndex",
+      "len",
+      "levels",
+      "limitValue",
+      "location",
+      "mana",
+      "maxVal",
+      "minVal",
+      "minute",
+      "misses",
+      "mode",
+      "month",
+      "num",
+      "offset",
+      "pin",
+      "placement",
+      "player",
+      "points",
+      "position",
+      "quantity",
+      "range",
+      "rank",
+      "second",
+      "size",
+      "spawn",
+      "speed",
+      "stamina",
+      "start",
+      "statValue",
+      "state",
+      "status",
+      "step",
+      "stock",
+      "strength",
+      "subtotalAmount",
+      "sum",
+      "teamRanking",
+      "totalAmount",
+      "type",
+      "year",
+      "years"
+    ],
+    "methodName": [
+      "add",
+      "aggregate",
+      "analyze",
+      "build",
+      "calculate",
+      "check",
+      "clear",
+      "close",
+      "compute",
+      "computeTotal",
+      "connect",
+      "delete",
+      "disconnect",
+      "execute",
+      "fetch",
+      "filter",
+      "find",
+      "findItem",
+      "finish",
+      "generate",
+      "getName",
+      "getSize",
+      "getStatus",
+      "handle",
+      "isEmpty",
+      "isValid",
+      "map",
+      "notify",
+      "open",
+      "pause",
+      "process",
+      "processData",
+      "publish",
+      "pull",
+      "push",
+      "receive",
+      "reduce",
+      "remove",
+      "report",
+      "reset",
+      "resetCounter",
+      "resume",
+      "save",
+      "search",
+      "send",
+      "setActive",
+      "sort",
+      "start",
+      "stop",
+      "subscribe",
+      "test",
+      "trigger",
+      "update",
+      "validate",
+      "verify"
+    ],
+    "objectVar": [
+      "account",
+      "adapter",
+      "alert",
+      "appointment",
+      "builder",
+      "client",
+      "collection",
+      "config",
+      "context",
+      "cookie",
+      "currentObject",
+      "customer",
+      "dataObj",
+      "description",
+      "details",
+      "employee",
+      "entry",
+      "event",
+      "factory",
+      "helper",
+      "history",
+      "info",
+      "item",
+      "log",
+      "manager",
+      "message",
+      "metadata",
+      "notification",
+      "obj",
+      "order",
+      "payload",
+      "preference",
+      "product",
+      "profile",
+      "provider",
+      "record",
+      "request",
+      "response",
+      "results",
+      "schedule",
+      "service",
+      "session",
+      "settings",
+      "student",
+      "summary",
+      "task",
+      "todo",
+      "token",
+      "transaction",
+      "util"
+    ],
+    "positiveIntLiteral": [
+      "11",
+      "110",
+      "12",
+      "121",
+      "132",
+      "14",
+      "143",
+      "154",
+      "16",
+      "165",
+      "176",
+      "18",
+      "187",
+      "198",
+      "21",
+      "210",
+      "22",
+      "225",
+      "240",
+      "255",
+      "26",
+      "270",
+      "28",
+      "285",
+      "3",
+      "300",
+      "31",
+      "33",
+      "35",
+      "38",
+      "42",
+      "45",
+      "49",
+      "5",
+      "55",
+      "6",
+      "66",
+      "77",
+      "88",
+      "9",
+      "99"
+    ],
+    "rowVar": [
+      "currentRow",
+      "endRow",
+      "latitudeIndex",
+      "r",
+      "rCoord",
+      "rEnd",
+      "rId",
+      "rIdx",
+      "rLimit",
+      "rOffset",
+      "rPosition",
+      "rStart",
+      "rStep",
+      "row",
+      "rowBus",
+      "rowCategory",
+      "rowColor",
+      "rowCount",
+      "rowDescriptor",
+      "rowDir",
+      "rowDisk",
+      "rowDoc",
+      "rowElement",
+      "rowEntry",
+      "rowFile",
+      "rowFont",
+      "rowGroup",
+      "rowHandle",
+      "rowIcon",
+      "rowImage",
+      "rowIndex",
+      "rowItem",
+      "rowIterator",
+      "rowKey",
+      "rowLabel",
+      "rowLink",
+      "rowMember",
+      "rowMode",
+      "rowMusic",
+      "rowNode",
+      "rowNum",
+      "rowPath",
+      "rowPin",
+      "rowPointer",
+      "rowPort",
+      "rowRecord",
+      "rowSkin",
+      "rowSound",
+      "rowState",
+      "rowStatus",
+      "rowStyle",
+      "rowTag",
+      "rowTheme",
+      "rowType",
+      "rowValue",
+      "rowVideo",
+      "startRow",
+      "targetRow",
+      "y",
+      "yCoord"
+    ],
+    "stringLiteral": [
+      "99",
+      "Active",
+      "Admin",
+      "Advanced",
+      "Basic",
+      "Blue",
+      "Busy",
+      "Cloud",
+      "Complete",
+      "Critical",
+      "Custom",
+      "Dave",
+      "Default",
+      "Done",
+      "Elite",
+      "Empty",
+      "Error",
+      "Example",
+      "External",
+      "False",
+      "Finished",
+      "Generic",
+      "Guest",
+      "Hello",
+      "Idle",
+      "Inactive",
+      "Incomplete",
+      "Internal",
+      "Invalid",
+      "Java",
+      "Local",
+      "Master",
+      "Member",
+      "None",
+      "Null",
+      "Offline",
+      "Online",
+      "OpenAI",
+      "Paused",
+      "Pending",
+      "Private",
+      "Pro",
+      "Public",
+      "Ready",
+      "Remote",
+      "Resumed",
+      "Running",
+      "Standard",
+      "Started",
+      "Stopped",
+      "Success",
+      "True",
+      "User",
+      "Valid",
+      "Very",
+      "Waiting",
+      "Warning",
+      "World",
+      "blustery",
+      "dave",
+      "fastidious",
+      "harbinger",
+      "quit"
+    ],
+    "stringVar": [
+      "action",
+      "bio",
+      "bodyContent",
+      "categoryName",
+      "city",
+      "color",
+      "command",
+      "comment",
+      "condition",
+      "country",
+      "currency",
+      "description",
+      "doc",
+      "emailAddress",
+      "encoding",
+      "errorMsg",
+      "event",
+      "extension",
+      "feedback",
+      "fileName",
+      "firstName",
+      "font",
+      "format",
+      "handle",
+      "helpText",
+      "icon",
+      "image",
+      "infoMsg",
+      "inputLine",
+      "jsonString",
+      "keyString",
+      "label",
+      "languageCode",
+      "lastName",
+      "link",
+      "locale",
+      "message",
+      "mimeType",
+      "music",
+      "name",
+      "password",
+      "path",
+      "phoneNumber",
+      "physicalAddress",
+      "post",
+      "prompt",
+      "quote",
+      "region",
+      "review",
+      "rule",
+      "s1",
+      "script",
+      "secret",
+      "sentence",
+      "skin",
+      "sound",
+      "state",
+      "statusText",
+      "style",
+      "subject",
+      "summary",
+      "symbol",
+      "tagName",
+      "text",
+      "textData",
+      "theme",
+      "timezone",
+      "title",
+      "token",
+      "trigger",
+      "unit",
+      "url",
+      "username",
+      "video",
+      "warningMsg",
+      "word",
+      "zipCode"
+    ],
+    "variableName": [
+      "adapter",
+      "app",
+      "attribute",
+      "boyee",
+      "builder",
+      "child",
+      "context",
+      "core",
+      "count",
+      "curliest",
+      "current",
+      "data",
+      "dataObj",
+      "element",
+      "entry",
+      "factory",
+      "field",
+      "firstIndex",
+      "firstVal",
+      "flag",
+      "head",
+      "helper",
+      "highest",
+      "idx",
+      "index",
+      "instance",
+      "item",
+      "itemList",
+      "lastVal",
+      "limit",
+      "line",
+      "macGuffin",
+      "manager",
+      "maxVal",
+      "member",
+      "min",
+      "namesList",
+      "next",
+      "node",
+      "num",
+      "param",
+      "parent",
+      "post",
+      "prev",
+      "property",
+      "provider",
+      "ptr",
+      "ref",
+      "result",
+      "rootNode",
+      "score",
+      "service",
+      "sibling",
+      "size",
+      "splat",
+      "studentNames",
+      "stuff",
+      "symbol",
+      "system",
+      "tail",
+      "target",
+      "temp",
+      "thing",
+      "total",
+      "util",
+      "val",
+      "value",
+      "widget",
+      "words"
+    ]
+  }
+}
