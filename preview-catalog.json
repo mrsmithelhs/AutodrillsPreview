@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-30T03:52:30.789Z",
+  "generatedAt": "2026-05-02T19:58:24.625Z",
   "units": [
     {
       "unitNumber": 1,
@@ -550,7 +550,10 @@
       ],
       "skillId": "u1a-extracting-the-last-digit",
       "tags": {
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -583,7 +586,10 @@
       ],
       "skillId": "u1a-extracting-the-last-digit",
       "tags": {
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -613,7 +619,10 @@
       ],
       "skillId": "u1a-grouping-for-an-average",
       "tags": {
-        "difficulty": "medium"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -643,7 +652,10 @@
       ],
       "skillId": "u1a-grouping-for-an-average",
       "tags": {
-        "difficulty": "medium"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -667,7 +679,10 @@
       ],
       "skillId": "u1b-rounding-a-positive-double",
       "tags": {
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "call"
       }
     },
     {
@@ -700,7 +715,10 @@
       ],
       "skillId": "u1b-rounding-a-positive-double",
       "tags": {
-        "difficulty": "medium"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "call"
       }
     },
     {
@@ -734,7 +752,10 @@
       ],
       "skillId": "u1b-random-integer-from-min-to-max",
       "tags": {
-        "difficulty": "hard"
+        "difficulty": "medium",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -768,7 +789,10 @@
       ],
       "skillId": "u1b-random-integer-from-min-to-max",
       "tags": {
-        "difficulty": "hard"
+        "difficulty": "medium",
+        "concept": "numeric-logic",
+        "syntax": "expression",
+        "operation": "compose"
       }
     },
     {
@@ -797,9 +821,10 @@
       ],
       "skillId": "u1c-last-character-of-a-string",
       "tags": {
-        "concept": "string_methods",
-        "difficulty": "medium",
-        "syntax": "expression"
+        "concept": "string-manipulation",
+        "difficulty": "easy",
+        "syntax": "expression",
+        "operation": "call"
       }
     },
     {
@@ -823,8 +848,10 @@
       ],
       "skillId": "u1c-last-character-of-a-string",
       "tags": {
-        "concept": "strings",
-        "level": "basic"
+        "concept": "string-manipulation",
+        "difficulty": "easy",
+        "syntax": "expression",
+        "operation": "call"
       }
     },
     {
@@ -853,7 +880,10 @@
       ],
       "skillId": "u2a-divisibility-check",
       "tags": {
-        "difficulty": "medium"
+        "difficulty": "easy",
+        "concept": "numeric-logic",
+        "syntax": "condition",
+        "operation": "guard"
       }
     },
     {
@@ -886,8 +916,10 @@
       ],
       "skillId": "u2a-divisibility-check",
       "tags": {
-        "concept": "modulus",
-        "type": "boolean expression"
+        "concept": "numeric-logic",
+        "syntax": "condition",
+        "difficulty": "easy",
+        "operation": "compare"
       }
     },
     {
@@ -917,7 +949,7 @@
       ],
       "skillId": "u2b-standard-zero-indexed-for-loop-header",
       "tags": {
-        "concept": "loops",
+        "concept": "traversal-control",
         "difficulty": "medium",
         "syntax": "header"
       }
@@ -950,8 +982,8 @@
       ],
       "skillId": "u2b-standard-zero-indexed-for-loop-header",
       "tags": {
-        "concept": "loops",
-        "difficulty": "medium",
+        "concept": "traversal-control",
+        "difficulty": "easy",
         "syntax": "header"
       }
     },
@@ -981,7 +1013,7 @@
       ],
       "skillId": "u2b-while-loop-continuation-condition",
       "tags": {
-        "concept": "loops",
+        "concept": "boolean-condition",
         "difficulty": "medium",
         "syntax": "header"
       }
@@ -1013,7 +1045,7 @@
       ],
       "skillId": "u2b-while-loop-continuation-condition",
       "tags": {
-        "concept": "loops",
+        "concept": "traversal-control",
         "difficulty": "medium",
         "syntax": "header"
       }
@@ -1108,7 +1140,7 @@
       ],
       "skillId": "u2c-safe-outer-loop-bound-for-substring-search",
       "tags": {
-        "concept": "algorithm",
+        "concept": "bounds-check",
         "difficulty": "medium",
         "syntax": "statement"
       }
@@ -1140,7 +1172,7 @@
       ],
       "skillId": "u2c-safe-outer-loop-bound-for-substring-search",
       "tags": {
-        "concept": "algorithm",
+        "concept": "bounds-check",
         "difficulty": "medium",
         "syntax": "statement"
       }
@@ -1171,8 +1203,8 @@
       ],
       "skillId": "u3a-private-instance-variable-declaration",
       "tags": {
-        "concept": "encapsulation",
-        "difficulty": "medium",
+        "concept": "object-state",
+        "difficulty": "easy",
         "syntax": "declaration"
       }
     },
@@ -1203,7 +1235,7 @@
       ],
       "skillId": "u3a-private-instance-variable-declaration",
       "tags": {
-        "concept": "encapsulation",
+        "concept": "object-state",
         "difficulty": "easy",
         "syntax": "declaration"
       }
@@ -1239,9 +1271,9 @@
       ],
       "skillId": "u3a-constructor-signature-without-a-return-type",
       "tags": {
-        "concept": "constructor",
-        "difficulty": "medium",
-        "syntax": "signature"
+        "concept": "class-structure",
+        "difficulty": "easy",
+        "syntax": "header"
       }
     },
     {
@@ -1276,9 +1308,9 @@
       ],
       "skillId": "u3a-constructor-signature-without-a-return-type",
       "tags": {
-        "concept": "constructor",
-        "difficulty": "medium",
-        "syntax": "signature"
+        "concept": "class-structure",
+        "difficulty": "easy",
+        "syntax": "header"
       }
     },
     {
@@ -1307,9 +1339,10 @@
       ],
       "skillId": "u3b-mutator-method-header",
       "tags": {
-        "concept": "oop",
-        "difficulty": "hard",
-        "syntax": "header"
+        "concept": "object-state",
+        "difficulty": "easy",
+        "syntax": "header",
+        "operation": "update"
       }
     },
     {
@@ -1329,7 +1362,12 @@
         "The syntax is `public void methodName(Parameters)`."
       ],
       "skillId": "u3b-mutator-method-header",
-      "tags": {}
+      "tags": {
+        "concept": "class-structure",
+        "difficulty": "easy",
+        "syntax": "header",
+        "operation": "call"
+      }
     },
     {
       "drillId": "class_method_multi_param_v1",
@@ -1358,7 +1396,7 @@
       ],
       "skillId": "u3b-void-method-header-with-parameters",
       "tags": {
-        "concept": "oop",
+        "concept": "class-structure",
         "difficulty": "hard",
         "syntax": "header"
       }
@@ -1380,7 +1418,12 @@
         "Separate parameters with commas."
       ],
       "skillId": "u3b-void-method-header-with-parameters",
-      "tags": {}
+      "tags": {
+        "concept": "class-structure",
+        "difficulty": "easy",
+        "syntax": "header",
+        "operation": "call"
+      }
     },
     {
       "drillId": "u3_static_method_header_v1",
@@ -1401,8 +1444,10 @@
       ],
       "skillId": "u3c-static-method-header",
       "tags": {
-        "concept": "static",
-        "level": "intermediate"
+        "concept": "static-members",
+        "difficulty": "easy",
+        "syntax": "header",
+        "operation": "call"
       }
     },
     {
@@ -1436,8 +1481,10 @@
       ],
       "skillId": "u3c-static-method-header",
       "tags": {
-        "concept": "static method",
-        "syntax": "header"
+        "concept": "static-members",
+        "syntax": "header",
+        "difficulty": "easy",
+        "operation": "call"
       }
     },
     {
@@ -1464,7 +1511,7 @@
       ],
       "skillId": "u4a-array-length-property",
       "tags": {
-        "concept": "arrays",
+        "concept": "collection-access",
         "difficulty": "hard",
         "syntax": "expression"
       }
@@ -1494,7 +1541,7 @@
       ],
       "skillId": "u4a-array-length-property",
       "tags": {
-        "concept": "arrays",
+        "concept": "collection-access",
         "difficulty": "hard",
         "syntax": "expression"
       }
@@ -1525,7 +1572,7 @@
       ],
       "skillId": "u4a-enhanced-for-loop-header-for-an-array",
       "tags": {
-        "concept": "loop",
+        "concept": "traversal-control",
         "difficulty": "easy",
         "syntax": "header"
       }
@@ -1557,7 +1604,7 @@
       ],
       "skillId": "u4a-enhanced-for-loop-header-for-an-array",
       "tags": {
-        "concept": "loops",
+        "concept": "traversal-control",
         "difficulty": "medium",
         "syntax": "header"
       }
@@ -1589,7 +1636,7 @@
       ],
       "skillId": "u4a-modifying-an-array-element",
       "tags": {
-        "concept": "arrays",
+        "concept": "collection-access",
         "difficulty": "hard",
         "syntax": "statement"
       }
@@ -1626,8 +1673,10 @@
       ],
       "skillId": "u4a-modifying-an-array-element",
       "tags": {
-        "concept": "modification",
-        "syntax": "assignment"
+        "concept": "state-update",
+        "syntax": "assignment",
+        "difficulty": "easy",
+        "operation": "assign"
       }
     },
     {
@@ -1656,7 +1705,7 @@
       ],
       "skillId": "u4b-generic-arraylist-declaration-andor-instantiation",
       "tags": {
-        "concept": "arraylists",
+        "concept": "collection-access",
         "difficulty": "hard",
         "syntax": "initialization"
       }
@@ -1688,7 +1737,7 @@
       ],
       "skillId": "u4b-generic-arraylist-declaration-andor-instantiation",
       "tags": {
-        "concept": "arraylists",
+        "concept": "collection-access",
         "difficulty": "hard",
         "syntax": "initialization"
       }
@@ -1721,7 +1770,12 @@
         "Remember that ArrayLists are zero-indexed, meaning the first slot is at index 0."
       ],
       "skillId": "u4b-accessing-an-arraylist-element",
-      "tags": {}
+      "tags": {
+        "concept": "collection-access",
+        "difficulty": "easy",
+        "syntax": "expression",
+        "operation": "access"
+      }
     },
     {
       "drillId": "arraylist_get_eq_expr_v1",
@@ -1755,7 +1809,10 @@
       ],
       "skillId": "u4b-accessing-an-arraylist-element",
       "tags": {
-        "difficulty": "medium"
+        "difficulty": "easy",
+        "concept": "collection-access",
+        "syntax": "condition",
+        "operation": "compare"
       }
     },
     {
@@ -1786,7 +1843,12 @@
         }
       ],
       "skillId": "u4b-inserting-into-an-arraylist-at-a-specific-index",
-      "tags": {}
+      "tags": {
+        "concept": "collection-access",
+        "difficulty": "easy",
+        "syntax": "statement",
+        "operation": "update"
+      }
     },
     {
       "drillId": "u4b_insert_v1",
@@ -1816,7 +1878,12 @@
         }
       ],
       "skillId": "u4b-inserting-into-an-arraylist-at-a-specific-index",
-      "tags": {}
+      "tags": {
+        "concept": "collection-access",
+        "difficulty": "easy",
+        "syntax": "statement",
+        "operation": "update"
+      }
     },
     {
       "drillId": "arraylist_append_v1",
@@ -1843,7 +1910,12 @@
         "This automatically increases the size and puts the element at the last position."
       ],
       "skillId": "u4b-arraylist-append",
-      "tags": {}
+      "tags": {
+        "concept": "collection-access",
+        "difficulty": "easy",
+        "syntax": "statement",
+        "operation": "update"
+      }
     },
     {
       "drillId": "u4b_append_v1",
@@ -1870,7 +1942,12 @@
         "This automatically increases the size and puts the element at the last position."
       ],
       "skillId": "u4b-arraylist-append",
-      "tags": {}
+      "tags": {
+        "concept": "collection-access",
+        "difficulty": "easy",
+        "syntax": "statement",
+        "operation": "update"
+      }
     },
     {
       "drillId": "array2d_access_expr_board_v1",
@@ -1911,7 +1988,7 @@
       ],
       "skillId": "u4c-2d-array-element-access",
       "tags": {
-        "concept": "access",
+        "concept": "collection-access",
         "difficulty": "hard",
         "focus": "cell",
         "syntax": "expression"
@@ -1956,8 +2033,8 @@
       ],
       "skillId": "u4c-2d-array-element-access",
       "tags": {
-        "concept": "access",
-        "difficulty": "easy",
+        "concept": "collection-access",
+        "difficulty": "medium",
         "focus": "cell",
         "syntax": "expression"
       }
@@ -1999,9 +2076,9 @@
       ],
       "skillId": "u4c-number-of-rows-in-a-2d-array",
       "tags": {
-        "concept": "comparison",
+        "concept": "boolean-condition",
         "difficulty": "medium",
-        "focus": "rows",
+        "focus": "row",
         "syntax": "condition"
       }
     },
@@ -2042,9 +2119,9 @@
       ],
       "skillId": "u4c-number-of-rows-in-a-2d-array",
       "tags": {
-        "concept": "comparison",
+        "concept": "boolean-condition",
         "difficulty": "hard",
-        "focus": "rows",
+        "focus": "row",
         "syntax": "condition"
       }
     }

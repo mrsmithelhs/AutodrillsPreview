@@ -1,0 +1,66 @@
+/**
+ * Autodrills Preview Asset: App-Cqw4cbS5.css
+ * 
+ * Runs: Browser-side on the public sample site.
+ * Responsibility: Part of the bundled preview application.
+ */
+
+.theme-mode-toggle[data-v-84ed4c63] .dropdown-toggle::after {
+  display: none;
+}
+.theme-mode-toggle .btn-link[data-v-84ed4c63] {
+  color: var(--bs-secondary-color);
+  text-decoration: none;
+}
+.theme-mode-toggle .btn-link[data-v-84ed4c63]:hover {
+  color: var(--bs-primary);
+}
+.dropdown-item.active[data-v-84ed4c63] {
+  background-color: var(--bs-primary);
+}
+.dropdown-item i[data-v-84ed4c63] {
+  width: 1.25rem;
+  text-align: center;
+}
+
+.app-shell[data-v-c9220848] {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.navbar[data-v-c9220848] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(0);
+}
+.navbar-preview-static[data-v-c9220848] {
+  position: sticky;
+  z-index: 1030;
+}
+.navbar-hidden[data-v-c9220848] {
+  transform: translateY(-100%);
+}
+.navbar-trigger[data-v-c9220848] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  z-index: 1060;
+}
+main[data-v-c9220848] {
+  padding-top: 1rem;
+}
+.preview-brand[data-v-c9220848] {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+.brand-name[data-v-c9220848] {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
