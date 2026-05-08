@@ -1,5 +1,5 @@
 /**
- * Autodrills Preview Asset: _plugin-vue_export-helper-mPWG5G5X.js
+ * Autodrills Preview Asset: _plugin-vue_export-helper-CyL4RPqw.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
@@ -1535,6 +1535,9 @@ function createRouter(options) {
   }
   return router;
 }
+function useRoute(_name) {
+  return inject(routeLocationKey);
+}
 const previewClient = (await __vitePreload(async () => {
   const { default: __vite_default__ } = await import("./previewStatic-DTtslmDu.js");
   return { default: __vite_default__ };
@@ -1960,10 +1963,11 @@ const _export_sfc = (sfc, props) => {
 export {
   RouterLink as R,
   _export_sfc as _,
-  RouterView as a,
-  apiClient as b,
-  createRouter as c,
-  createWebHashHistory as d,
+  useRoute as a,
+  RouterView as b,
+  apiClient as c,
+  createRouter as d,
+  createWebHashHistory as e,
   useAppBootstrap as u
 };
-//# sourceMappingURL=_plugin-vue_export-helper-mPWG5G5X.js.map
+//# sourceMappingURL=_plugin-vue_export-helper-CyL4RPqw.js.map

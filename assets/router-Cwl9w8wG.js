@@ -1,10 +1,10 @@
 /**
- * Autodrills Preview Asset: router-DSIBkR0r.js
+ * Autodrills Preview Asset: router-Cwl9w8wG.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-import { _ as _export_sfc, b as apiClient, u as useAppBootstrap, c as createRouter, d as createWebHashHistory } from "./_plugin-vue_export-helper-mPWG5G5X.js";
+import { _ as _export_sfc, c as apiClient, u as useAppBootstrap, d as createRouter, e as createWebHashHistory } from "./_plugin-vue_export-helper-CyL4RPqw.js";
 import { w as withModifiers, v as vModelText, T as Transition } from "./runtime-dom.esm-bundler-BMkBX2kS.js";
 import { c as openBlock, d as createElementBlock, e as createBaseVNode, g as createTextVNode, m as nextTick, r as ref, F as Fragment, f as renderList, t as toDisplayString, p as watch, l as createBlock, j as withCtx, u as unref, q as withDirectives, h as createCommentVNode, k as computed, s as normalizeStyle, n as normalizeClass, v as resolveDynamicComponent, i as createVNode, o as onMounted, x as isRef, y as resolveComponent, z as createStaticVNode } from "./runtime-core.esm-bundler-C21_olk_.js";
 import { _ as __CJS__export_default__$6, s as substitutionsModule$1, a as __CJS__export_default__$7, b as attemptContextModule } from "./substitutions-DfevYuFc.js";
@@ -78,7 +78,7 @@ const _sfc_main$c = {
 const AnswerEditor = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-3776d34a"]]);
 const _hoisted_1$b = { class: "d-flex justify-content-between align-items-center mb-2" };
 const _hoisted_2$b = { class: "btn-group btn-group-sm" };
-const _hoisted_3$9 = {
+const _hoisted_3$a = {
   key: 0,
   class: "text-muted small"
 };
@@ -170,7 +170,7 @@ const _sfc_main$b = {
           ])
         ]),
         _cache[3] || (_cache[3] = createBaseVNode("p", { class: "text-muted small mb-3" }, " Select a whole unit, or pick one or more topics within a unit. Whole-unit selections include every topic in that unit. ", -1)),
-        __props.loading ? (openBlock(), createElementBlock("div", _hoisted_3$9, "Loading AP CSA units and topics...")) : (openBlock(), createElementBlock("div", _hoisted_4$8, [
+        __props.loading ? (openBlock(), createElementBlock("div", _hoisted_3$a, "Loading AP CSA units and topics...")) : (openBlock(), createElementBlock("div", _hoisted_4$8, [
           (openBlock(true), createElementBlock(Fragment, null, renderList(__props.options, (unit) => {
             return openBlock(), createElementBlock("div", {
               key: unit.unitId,
@@ -382,7 +382,7 @@ const _hoisted_2$a = {
   class: "modal-header text-white border-0 py-3 px-4",
   style: { "background-color": "#b42318" }
 };
-const _hoisted_3$8 = ["disabled"];
+const _hoisted_3$9 = ["disabled"];
 const _hoisted_4$7 = { class: "modal-body p-4" };
 const _hoisted_5$7 = { class: "text-body-secondary mb-3" };
 const _hoisted_6$6 = { key: 0 };
@@ -556,7 +556,7 @@ const _sfc_main$a = {
                     class: "btn-close btn-close-white",
                     disabled: __props.submitting,
                     onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("close"))
-                  }, null, 8, _hoisted_3$8)
+                  }, null, 8, _hoisted_3$9)
                 ]),
                 createBaseVNode("div", _hoisted_4$7, [
                   createBaseVNode("p", _hoisted_5$7, [
@@ -648,71 +648,84 @@ const _sfc_main$a = {
   }
 };
 const DrillReportModal = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-20a649a7"]]);
-const _hoisted_1$9 = {
+const _hoisted_1$9 = { class: "practice-toolbar border rounded p-3 h-100 bg-body d-flex flex-column gap-3 transition-colors duration-300" };
+const _hoisted_2$9 = {
   key: 0,
   class: "progress-section"
 };
-const _hoisted_2$9 = { class: "d-flex justify-content-between small text-body-secondary mb-1" };
-const _hoisted_3$7 = ["aria-valuenow"];
-const _hoisted_4$6 = {
+const _hoisted_3$8 = { class: "d-flex justify-content-between small text-body-secondary mb-1" };
+const _hoisted_4$6 = ["aria-valuenow"];
+const _hoisted_5$6 = {
   key: 1,
   class: "metadata-section small border-bottom pb-3"
 };
-const _hoisted_5$6 = { class: "metadata-heading mb-3" };
-const _hoisted_6$5 = {
+const _hoisted_6$5 = { class: "metadata-heading mb-3" };
+const _hoisted_7$5 = {
   class: "fw-bold",
   title: "Topic",
   "data-testid": "topic-title"
 };
-const _hoisted_7$5 = {
-  class: "text-body-secondary font-monospace mt-2",
-  title: "Drill ID",
-  "data-testid": "drill-id"
+const _hoisted_8$5 = {
+  key: 0,
+  class: "text-body-secondary small mt-1"
 };
-const _hoisted_8$5 = { class: "metadata-pair-grid" };
-const _hoisted_9$5 = { class: "metadata-pair" };
-const _hoisted_10$5 = { class: "fw-semibold" };
-const _hoisted_11$4 = { class: "metadata-pair" };
-const _hoisted_12$4 = { class: "fw-semibold" };
-const _hoisted_13$4 = { class: "metadata-pair" };
-const _hoisted_14$4 = { class: "fw-semibold" };
-const _hoisted_15$4 = {
+const _hoisted_9$5 = { class: "metadata-pair-grid" };
+const _hoisted_10$5 = { class: "metadata-pair" };
+const _hoisted_11$4 = { class: "fw-semibold" };
+const _hoisted_12$4 = { class: "metadata-pair" };
+const _hoisted_13$4 = { class: "fw-semibold" };
+const _hoisted_14$4 = { class: "metadata-pair" };
+const _hoisted_15$4 = { class: "fw-semibold" };
+const _hoisted_16$4 = { class: "drill-id-block mt-3 pt-2 border-top" };
+const _hoisted_17$4 = {
+  class: "text-body-secondary font-monospace mt-1",
+  "data-testid": "drill-id",
+  title: "Drill ID"
+};
+const _hoisted_18$3 = {
   key: 0,
   class: "mt-3 pt-2 border-top metadata-extra"
 };
-const _hoisted_16$4 = {
+const _hoisted_19$3 = {
   class: "text-body-secondary text-uppercase",
   style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
 };
-const _hoisted_17$4 = { class: "fw-semibold text-end" };
-const _hoisted_18$3 = {
+const _hoisted_20$3 = { class: "fw-semibold text-end" };
+const _hoisted_21$3 = {
   class: "fw-bold d-flex align-items-center gap-2 text-uppercase",
   style: { "font-size": "0.85rem" }
 };
-const _hoisted_19$3 = { key: 0 };
-const _hoisted_20$3 = { key: 1 };
-const _hoisted_21$3 = { key: 2 };
-const _hoisted_22$3 = { class: "small mt-1" };
-const _hoisted_23$3 = { class: "actions-section d-grid gap-2" };
-const _hoisted_24$3 = ["disabled"];
-const _hoisted_25$3 = ["disabled"];
-const _hoisted_26$3 = ["disabled"];
-const _hoisted_27$3 = { class: "d-flex gap-2" };
-const _hoisted_28$2 = ["disabled"];
-const _hoisted_29$2 = ["disabled"];
+const _hoisted_22$3 = { key: 0 };
+const _hoisted_23$3 = { key: 1 };
+const _hoisted_24$3 = { key: 2 };
+const _hoisted_25$3 = {
+  key: 0,
+  class: "small mt-2"
+};
+const _hoisted_26$3 = {
+  key: 1,
+  class: "small fw-semibold mt-2"
+};
+const _hoisted_27$3 = { class: "actions-section d-grid gap-2" };
+const _hoisted_28$3 = ["disabled"];
+const _hoisted_29$3 = ["disabled"];
 const _hoisted_30$1 = ["disabled"];
-const _hoisted_31$1 = { class: "small text-body-secondary mt-auto pt-3 border-top" };
-const _hoisted_32$1 = {
+const _hoisted_31$1 = { class: "d-flex gap-2" };
+const _hoisted_32$1 = ["disabled"];
+const _hoisted_33$1 = ["disabled"];
+const _hoisted_34$1 = ["disabled"];
+const _hoisted_35 = { class: "small text-body-secondary mt-auto pt-3 border-top" };
+const _hoisted_36 = {
   key: 0,
   class: "mb-1 text-uppercase fw-semibold",
   style: { "letter-spacing": "0.08em", "font-size": "0.7rem" }
 };
-const _hoisted_33$1 = { key: 1 };
-const _hoisted_34$1 = { key: 2 };
-const _hoisted_35 = { key: 3 };
-const _hoisted_36 = { key: 4 };
-const _hoisted_37 = { key: 5 };
-const _hoisted_38 = { key: 6 };
+const _hoisted_37 = { key: 1 };
+const _hoisted_38 = { key: 2 };
+const _hoisted_39 = { key: 3 };
+const _hoisted_40 = { key: 4 };
+const _hoisted_41 = { key: 5 };
+const _hoisted_42 = { key: 6 };
 const _sfc_main$9 = {
   __name: "PracticeToolbar",
   props: {
@@ -806,16 +819,50 @@ const _sfc_main$9 = {
       const tags = props.drillMetadata?.tags || {};
       return Object.entries(tags).filter(([key, value]) => value !== null && value !== void 0 && String(value).trim() !== "" && !["concept", "difficulty", "syntax"].includes(key)).map(([key, value]) => ({ key, value }));
     });
+    const hintButtonLabel = computed(() => {
+      if (props.reviewMode) {
+        return "Hint unavailable in review";
+      }
+      if (!props.hintAvailable) {
+        return props.remainingHints > 0 ? "Hint already shown" : "No More Hints";
+      }
+      return props.remainingHints > 0 ? `Show Hint (${props.remainingHints} left)` : "No More Hints";
+    });
+    const feedbackHeadline = computed(() => {
+      if (props.feedback?.status === "correct") return "Correct";
+      if (props.feedback?.status === "incorrect") return "Incorrect";
+      if (props.feedback?.status === "revealed") return "Solution revealed";
+      return "";
+    });
+    const feedbackBodyCopy = computed(() => {
+      const message = String(props.feedback?.message || "").trim();
+      if (!message) {
+        return "";
+      }
+      if (props.feedback?.status === "correct" && message === "Correct!") {
+        return "";
+      }
+      if (props.feedback?.status === "incorrect" && message === "Not quite. Check the prompt, then try again or reveal a hint.") {
+        return "";
+      }
+      return message;
+    });
+    const feedbackSupportCopy = computed(() => {
+      if (props.feedback?.status === "correct") {
+        return "Move to the next drill when you are ready.";
+      }
+      if (props.feedback?.status === "incorrect") {
+        return "Try again, check the prompt, or reveal a hint.";
+      }
+      if (props.feedback?.status === "revealed") {
+        return "Review the solution, then keep practicing.";
+      }
+      return "";
+    });
     return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div", {
-        class: normalizeClass(["practice-toolbar border rounded p-3 h-100 bg-body d-flex flex-column gap-3 transition-colors duration-300", {
-          "feedback-correct": __props.feedback?.status === "correct",
-          "feedback-incorrect": __props.feedback?.status === "incorrect",
-          "feedback-revealed": __props.feedback?.status === "revealed"
-        }])
-      }, [
-        !__props.focusMode ? (openBlock(), createElementBlock("div", _hoisted_1$9, [
-          createBaseVNode("div", _hoisted_2$9, [
+      return openBlock(), createElementBlock("div", _hoisted_1$9, [
+        !__props.focusMode ? (openBlock(), createElementBlock("div", _hoisted_2$9, [
+          createBaseVNode("div", _hoisted_3$8, [
             _cache[6] || (_cache[6] = createBaseVNode("span", { class: "fw-semibold" }, "Progress", -1)),
             createBaseVNode("span", null, toDisplayString(__props.currentPosition), 1)
           ]),
@@ -831,85 +878,97 @@ const _sfc_main$9 = {
               class: "progress-bar",
               style: normalizeStyle({ width: `${__props.progressPercent}%` })
             }, null, 4)
-          ], 8, _hoisted_3$7)
+          ], 8, _hoisted_4$6)
         ])) : createCommentVNode("", true),
-        !__props.focusMode ? (openBlock(), createElementBlock("div", _hoisted_4$6, [
-          createBaseVNode("div", _hoisted_5$6, [
-            createBaseVNode("div", _hoisted_6$5, toDisplayString(topicHeading.value), 1),
-            createBaseVNode("div", _hoisted_7$5, toDisplayString(props.drillMetadata?.drillId || "Unknown drill"), 1)
+        !__props.focusMode ? (openBlock(), createElementBlock("div", _hoisted_5$6, [
+          createBaseVNode("div", _hoisted_6$5, [
+            _cache[7] || (_cache[7] = createBaseVNode("div", {
+              class: "text-uppercase text-body-secondary fw-bold mb-1",
+              style: { "font-size": "0.7rem", "letter-spacing": "0.08em" }
+            }, "Topic", -1)),
+            createBaseVNode("div", _hoisted_7$5, toDisplayString(topicHeading.value), 1),
+            props.drillMetadata?.unitName ? (openBlock(), createElementBlock("div", _hoisted_8$5, toDisplayString(props.drillMetadata.unitName), 1)) : createCommentVNode("", true)
           ]),
-          createBaseVNode("div", _hoisted_8$5, [
-            createBaseVNode("div", _hoisted_9$5, [
-              _cache[7] || (_cache[7] = createBaseVNode("div", {
-                class: "text-uppercase text-body-secondary fw-bold mb-1",
-                style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
-              }, "Concept", -1)),
-              createBaseVNode("div", _hoisted_10$5, toDisplayString(primaryTags.value.concept || "—"), 1)
-            ]),
-            createBaseVNode("div", _hoisted_11$4, [
+          createBaseVNode("div", _hoisted_9$5, [
+            createBaseVNode("div", _hoisted_10$5, [
               _cache[8] || (_cache[8] = createBaseVNode("div", {
                 class: "text-uppercase text-body-secondary fw-bold mb-1",
                 style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
-              }, "Difficulty", -1)),
-              createBaseVNode("div", _hoisted_12$4, toDisplayString(primaryTags.value.difficulty || "—"), 1)
+              }, "Concept", -1)),
+              createBaseVNode("div", _hoisted_11$4, toDisplayString(primaryTags.value.concept || "—"), 1)
             ]),
-            createBaseVNode("div", _hoisted_13$4, [
+            createBaseVNode("div", _hoisted_12$4, [
               _cache[9] || (_cache[9] = createBaseVNode("div", {
                 class: "text-uppercase text-body-secondary fw-bold mb-1",
                 style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
+              }, "Difficulty", -1)),
+              createBaseVNode("div", _hoisted_13$4, toDisplayString(primaryTags.value.difficulty || "—"), 1)
+            ]),
+            createBaseVNode("div", _hoisted_14$4, [
+              _cache[10] || (_cache[10] = createBaseVNode("div", {
+                class: "text-uppercase text-body-secondary fw-bold mb-1",
+                style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
               }, "Syntax", -1)),
-              createBaseVNode("div", _hoisted_14$4, toDisplayString(primaryTags.value.syntax || "—"), 1)
+              createBaseVNode("div", _hoisted_15$4, toDisplayString(primaryTags.value.syntax || "—"), 1)
             ])
           ]),
-          extraTags.value.length ? (openBlock(), createElementBlock("div", _hoisted_15$4, [
+          createBaseVNode("div", _hoisted_16$4, [
+            _cache[11] || (_cache[11] = createBaseVNode("div", {
+              class: "text-body-secondary small fw-semibold text-uppercase",
+              style: { "font-size": "0.7rem", "letter-spacing": "0.05em" }
+            }, "Drill ID", -1)),
+            createBaseVNode("div", _hoisted_17$4, toDisplayString(props.drillMetadata?.drillId || "Unknown drill"), 1)
+          ]),
+          extraTags.value.length ? (openBlock(), createElementBlock("div", _hoisted_18$3, [
             (openBlock(true), createElementBlock(Fragment, null, renderList(extraTags.value, (tag) => {
               return openBlock(), createElementBlock("div", {
                 key: tag.key,
                 class: "d-flex justify-content-between gap-2 mb-1"
               }, [
-                createBaseVNode("span", _hoisted_16$4, toDisplayString(tag.key), 1),
-                createBaseVNode("span", _hoisted_17$4, toDisplayString(tag.value), 1)
+                createBaseVNode("span", _hoisted_19$3, toDisplayString(tag.key), 1),
+                createBaseVNode("span", _hoisted_20$3, toDisplayString(tag.value), 1)
               ]);
             }), 128))
           ])) : createCommentVNode("", true)
         ])) : createCommentVNode("", true),
         __props.feedback ? (openBlock(), createElementBlock("div", {
           key: 2,
-          class: normalizeClass(["feedback-alert p-2 rounded border", __props.feedback.status])
+          class: normalizeClass(["feedback-alert p-3 rounded border", __props.feedback.status])
         }, [
-          createBaseVNode("div", _hoisted_18$3, [
-            __props.feedback.status === "correct" ? (openBlock(), createElementBlock("span", _hoisted_19$3, "✅ Correct")) : __props.feedback.status === "incorrect" ? (openBlock(), createElementBlock("span", _hoisted_20$3, "❌ Incorrect")) : __props.feedback.status === "revealed" ? (openBlock(), createElementBlock("span", _hoisted_21$3, "🔍 Revealed")) : createCommentVNode("", true)
+          createBaseVNode("div", _hoisted_21$3, [
+            __props.feedback.status === "correct" ? (openBlock(), createElementBlock("span", _hoisted_22$3, "✅ " + toDisplayString(feedbackHeadline.value), 1)) : __props.feedback.status === "incorrect" ? (openBlock(), createElementBlock("span", _hoisted_23$3, "❌ " + toDisplayString(feedbackHeadline.value), 1)) : __props.feedback.status === "revealed" ? (openBlock(), createElementBlock("span", _hoisted_24$3, "🔍 " + toDisplayString(feedbackHeadline.value), 1)) : createCommentVNode("", true)
           ]),
-          createBaseVNode("div", _hoisted_22$3, toDisplayString(__props.feedback.message), 1)
+          feedbackBodyCopy.value ? (openBlock(), createElementBlock("div", _hoisted_25$3, toDisplayString(feedbackBodyCopy.value), 1)) : createCommentVNode("", true),
+          feedbackSupportCopy.value ? (openBlock(), createElementBlock("div", _hoisted_26$3, toDisplayString(feedbackSupportCopy.value), 1)) : createCommentVNode("", true)
         ], 2)) : createCommentVNode("", true),
-        createBaseVNode("div", _hoisted_23$3, [
-          _cache[10] || (_cache[10] = createBaseVNode("div", { class: "fw-semibold small text-body-secondary mb-1" }, "Actions", -1)),
+        createBaseVNode("div", _hoisted_27$3, [
+          _cache[12] || (_cache[12] = createBaseVNode("div", { class: "fw-semibold small text-body-secondary mb-1" }, "Actions", -1)),
           createBaseVNode("button", {
             class: "btn btn-primary",
             disabled: !__props.canSubmit,
             onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("submit"))
-          }, "Check Answer", 8, _hoisted_24$3),
+          }, "Check Answer", 8, _hoisted_28$3),
           createBaseVNode("button", {
             class: "btn btn-outline-secondary",
             disabled: !__props.canShowSolution,
             onClick: _cache[1] || (_cache[1] = ($event) => _ctx.$emit("solution"))
-          }, "Show Solution", 8, _hoisted_25$3),
+          }, "Show Solution", 8, _hoisted_29$3),
           createBaseVNode("button", {
             class: "btn btn-outline-secondary",
             disabled: !__props.hintAvailable,
             onClick: _cache[2] || (_cache[2] = ($event) => _ctx.$emit("hint"))
-          }, toDisplayString(__props.remainingHints > 0 ? `Show Hint (${__props.remainingHints} left)` : "No More Hints"), 9, _hoisted_26$3),
-          createBaseVNode("div", _hoisted_27$3, [
+          }, toDisplayString(hintButtonLabel.value), 9, _hoisted_30$1),
+          createBaseVNode("div", _hoisted_31$1, [
             createBaseVNode("button", {
               class: "btn btn-outline-primary flex-fill",
               disabled: !__props.canGoPreviousDrill,
               onClick: _cache[3] || (_cache[3] = ($event) => _ctx.$emit("previous"))
-            }, "Previous Drill", 8, _hoisted_28$2),
+            }, "Previous Drill", 8, _hoisted_32$1),
             createBaseVNode("button", {
               class: "btn btn-outline-primary flex-fill",
               disabled: !__props.canGoNextDrill,
               onClick: _cache[4] || (_cache[4] = ($event) => _ctx.$emit("next"))
-            }, "Next Drill", 8, _hoisted_29$2)
+            }, "Next Drill", 8, _hoisted_33$1)
           ]),
           createBaseVNode("button", {
             class: normalizeClass(["btn btn-sm mt-2", {
@@ -920,7 +979,7 @@ const _sfc_main$9 = {
             title: "Flag a drill that looks wrong so it can be reviewed and fixed.",
             disabled: !__props.canReportCurrentDrill,
             onClick: _cache[5] || (_cache[5] = ($event) => _ctx.$emit("report"))
-          }, toDisplayString(__props.reportButtonLabel), 11, _hoisted_30$1),
+          }, toDisplayString(__props.reportButtonLabel), 11, _hoisted_34$1),
           __props.reportMessage ? (openBlock(), createElementBlock("div", {
             key: 0,
             class: normalizeClass(["small", {
@@ -932,15 +991,15 @@ const _sfc_main$9 = {
             }])
           }, toDisplayString(__props.reportMessage), 3)) : createCommentVNode("", true)
         ]),
-        createBaseVNode("div", _hoisted_31$1, [
-          __props.reviewMode ? (openBlock(), createElementBlock("div", _hoisted_32$1, " Review mode ")) : createCommentVNode("", true),
-          __props.saveState === "saving" ? (openBlock(), createElementBlock("div", _hoisted_33$1, toDisplayString(__props.saveMessage || "Saving response..."), 1)) : __props.saveState === "saved" ? (openBlock(), createElementBlock("div", _hoisted_34$1, toDisplayString(__props.saveMessage || "Saved."), 1)) : __props.saveState === "error" ? (openBlock(), createElementBlock("div", _hoisted_35, toDisplayString(__props.saveMessage || "Saving failed."), 1)) : __props.queueDepth ? (openBlock(), createElementBlock("div", _hoisted_36, "Queued " + toDisplayString(__props.queueDepth) + " response" + toDisplayString(__props.queueDepth === 1 ? "" : "s") + ".", 1)) : __props.prefetching ? (openBlock(), createElementBlock("div", _hoisted_37, "Preparing next slice...")) : (openBlock(), createElementBlock("div", _hoisted_38, "Ready"))
+        createBaseVNode("div", _hoisted_35, [
+          __props.reviewMode ? (openBlock(), createElementBlock("div", _hoisted_36, " Review mode ")) : createCommentVNode("", true),
+          __props.saveState === "saving" ? (openBlock(), createElementBlock("div", _hoisted_37, toDisplayString(__props.saveMessage || "Saving response..."), 1)) : __props.saveState === "saved" ? (openBlock(), createElementBlock("div", _hoisted_38, toDisplayString(__props.saveMessage || "Answer saved."), 1)) : __props.saveState === "error" ? (openBlock(), createElementBlock("div", _hoisted_39, toDisplayString(__props.saveMessage || "Saving failed."), 1)) : __props.queueDepth ? (openBlock(), createElementBlock("div", _hoisted_40, "Queued " + toDisplayString(__props.queueDepth) + " response" + toDisplayString(__props.queueDepth === 1 ? "" : "s") + ".", 1)) : __props.prefetching ? (openBlock(), createElementBlock("div", _hoisted_41, "Preparing next slice...")) : (openBlock(), createElementBlock("div", _hoisted_42, "Ready"))
         ])
-      ], 2);
+      ]);
     };
   }
 };
-const PracticeToolbar = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-35c309d4"]]);
+const PracticeToolbar = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-e0dc862f"]]);
 var module$6 = { exports: {} };
 const { applySubstitutions: applySubstitutions$1 } = __CJS__export_default__$6 || substitutionsModule$1;
 function splitInlineMonospace(text = "") {
@@ -1027,9 +1086,14 @@ const inlineFormattingModule = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Obj
 }, Symbol.toStringTag, { value: "Module" }));
 const _hoisted_1$8 = {
   key: 0,
+  class: "inline-text-error d-block rounded border border-danger-subtle bg-danger-subtle px-2 py-1 small text-danger-emphasis",
+  role: "alert"
+};
+const _hoisted_2$8 = {
+  key: 0,
   class: "inline-code"
 };
-const _hoisted_2$8 = { key: 1 };
+const _hoisted_3$7 = { key: 1 };
 const _sfc_main$8 = {
   __name: "InlineText",
   props: {
@@ -1050,14 +1114,15 @@ const _sfc_main$8 = {
     const { splitInlineTextWithPlaceholders: splitInlineTextWithPlaceholders2 } = __CJS__export_default__$4 || inlineFormattingModule;
     const props = __props;
     const segments = computed(() => splitInlineTextWithPlaceholders2(props.text, props.substitutions));
+    const hasUnresolvedPlaceholders = computed(() => segments.value.some((segment) => segment.type === "code" && /\{\{[^}]+\}\}/.test(String(segment.value || ""))));
     return (_ctx, _cache) => {
       return openBlock(), createBlock(resolveDynamicComponent(__props.tag), { class: "inline-text" }, {
         default: withCtx(() => [
-          (openBlock(true), createElementBlock(Fragment, null, renderList(segments.value, (segment, index) => {
+          hasUnresolvedPlaceholders.value ? (openBlock(), createElementBlock("span", _hoisted_1$8, " This practice content could not be rendered safely. ")) : (openBlock(true), createElementBlock(Fragment, { key: 1 }, renderList(segments.value, (segment, index) => {
             return openBlock(), createElementBlock(Fragment, {
               key: `${segment.type}-${index}`
             }, [
-              segment.type === "code" ? (openBlock(), createElementBlock("code", _hoisted_1$8, toDisplayString(segment.value), 1)) : (openBlock(), createElementBlock("span", _hoisted_2$8, toDisplayString(segment.value), 1))
+              segment.type === "code" ? (openBlock(), createElementBlock("code", _hoisted_2$8, toDisplayString(segment.value), 1)) : (openBlock(), createElementBlock("span", _hoisted_3$7, toDisplayString(segment.value), 1))
             ], 64);
           }), 128))
         ]),
@@ -1234,6 +1299,11 @@ const _hoisted_26$2 = {
   class: "text-muted small"
 };
 const _hoisted_27$2 = {
+  key: 1,
+  class: "rounded border bg-body-tertiary p-3"
+};
+const _hoisted_28$2 = { class: "text-muted small" };
+const _hoisted_29$2 = {
   key: 2,
   class: "text-muted small"
 };
@@ -1259,6 +1329,8 @@ const _sfc_main$6 = {
     const topStrengths = computed(() => props.analytics?.strengthSkills || []);
     const topFocus = computed(() => props.analytics?.focusSkills || []);
     const topGrowth = computed(() => props.analytics?.growthSkills || []);
+    const hasDetailedMomentum = computed(() => Boolean(topStrengths.value.length || topFocus.value.length || topGrowth.value.length));
+    const emptyMomentumCopy = computed(() => props.previewMode ? "Keep practicing to build this browser’s momentum. After a few responses, we’ll start showing steady areas, review targets, and growth trends." : "Keep practicing to build momentum. After a few responses, we’ll start showing steady areas, review targets, and growth trends.");
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1$6, [
         createBaseVNode("div", _hoisted_2$6, [
@@ -1276,58 +1348,63 @@ const _sfc_main$6 = {
               createBaseVNode("span", _hoisted_11$3, toDisplayString(accuracyLabel.value), 1),
               createBaseVNode("span", _hoisted_12$3, toDisplayString(__props.analytics?.totals?.skillCount ?? 0) + " " + toDisplayString(__props.previewMode ? "preview skills" : "skills with data"), 1)
             ]),
-            createBaseVNode("div", _hoisted_13$3, [
-              _cache[0] || (_cache[0] = createBaseVNode("div", {
-                class: "small text-uppercase text-muted fw-bold mb-2",
-                style: { "letter-spacing": "0.08em" }
-              }, "Steady right now", -1)),
-              topStrengths.value.length ? (openBlock(), createElementBlock("div", _hoisted_14$3, [
-                (openBlock(true), createElementBlock(Fragment, null, renderList(topStrengths.value.slice(0, 3), (skill) => {
-                  return openBlock(), createElementBlock("div", {
-                    key: skill.skillId,
-                    class: "rounded border p-2 bg-body-tertiary"
-                  }, [
-                    createBaseVNode("div", _hoisted_15$3, toDisplayString(skill.displayName), 1),
-                    createBaseVNode("div", _hoisted_16$3, toDisplayString(skill.status) + " • " + toDisplayString(Math.round((skill.accuracy ?? 0) * 100)) + "% accuracy", 1)
-                  ]);
-                }), 128))
-              ])) : (openBlock(), createElementBlock("div", _hoisted_17$3, "Keep going. Once a few skills have enough data, we’ll start showing steady areas here."))
-            ]),
-            createBaseVNode("div", _hoisted_18$2, [
-              _cache[1] || (_cache[1] = createBaseVNode("div", {
-                class: "small text-uppercase text-muted fw-bold mb-2",
-                style: { "letter-spacing": "0.08em" }
-              }, "Good next review", -1)),
-              topFocus.value.length ? (openBlock(), createElementBlock("div", _hoisted_19$2, [
-                (openBlock(true), createElementBlock(Fragment, null, renderList(topFocus.value.slice(0, 3), (skill) => {
-                  return openBlock(), createElementBlock("div", {
-                    key: skill.skillId,
-                    class: "rounded border p-2 bg-body"
-                  }, [
-                    createBaseVNode("div", _hoisted_20$2, toDisplayString(skill.displayName), 1),
-                    createBaseVNode("div", _hoisted_21$2, toDisplayString(skill.status) + " • " + toDisplayString(skill.confidence) + " confidence • " + toDisplayString(skill.attempts) + " responses ", 1)
-                  ]);
-                }), 128))
-              ])) : (openBlock(), createElementBlock("div", _hoisted_22$2, "No review-heavy skills yet. That usually means you’re still building a good sample."))
-            ]),
-            createBaseVNode("div", null, [
-              _cache[2] || (_cache[2] = createBaseVNode("div", {
-                class: "small text-uppercase text-muted fw-bold mb-2",
-                style: { "letter-spacing": "0.08em" }
-              }, "Getting stronger", -1)),
-              topGrowth.value.length ? (openBlock(), createElementBlock("div", _hoisted_23$2, [
-                (openBlock(true), createElementBlock(Fragment, null, renderList(topGrowth.value.slice(0, 3), (skill) => {
-                  return openBlock(), createElementBlock("div", {
-                    key: skill.skillId,
-                    class: "rounded border p-2 bg-body"
-                  }, [
-                    createBaseVNode("div", _hoisted_24$2, toDisplayString(skill.displayName), 1),
-                    createBaseVNode("div", _hoisted_25$2, toDisplayString(skill.trend) + " • " + toDisplayString(skill.attempts) + " responses", 1)
-                  ]);
-                }), 128))
-              ])) : (openBlock(), createElementBlock("div", _hoisted_26$2, "No clear growth trend is standing out yet."))
-            ])
-          ], 64)) : (openBlock(), createElementBlock("div", _hoisted_27$2, toDisplayString(__props.previewMode ? "Try a few preview drills to build this browser’s momentum." : "Try some practice problems to build your momentum!"), 1))
+            hasDetailedMomentum.value ? (openBlock(), createElementBlock(Fragment, { key: 0 }, [
+              createBaseVNode("div", _hoisted_13$3, [
+                _cache[0] || (_cache[0] = createBaseVNode("div", {
+                  class: "small text-uppercase text-muted fw-bold mb-2",
+                  style: { "letter-spacing": "0.08em" }
+                }, "Steady right now", -1)),
+                topStrengths.value.length ? (openBlock(), createElementBlock("div", _hoisted_14$3, [
+                  (openBlock(true), createElementBlock(Fragment, null, renderList(topStrengths.value.slice(0, 3), (skill) => {
+                    return openBlock(), createElementBlock("div", {
+                      key: skill.skillId,
+                      class: "rounded border p-2 bg-body-tertiary"
+                    }, [
+                      createBaseVNode("div", _hoisted_15$3, toDisplayString(skill.displayName), 1),
+                      createBaseVNode("div", _hoisted_16$3, toDisplayString(skill.status) + " • " + toDisplayString(Math.round((skill.accuracy ?? 0) * 100)) + "% accuracy", 1)
+                    ]);
+                  }), 128))
+                ])) : (openBlock(), createElementBlock("div", _hoisted_17$3, "Keep going. Once a few skills have enough data, we’ll start showing steady areas here."))
+              ]),
+              createBaseVNode("div", _hoisted_18$2, [
+                _cache[1] || (_cache[1] = createBaseVNode("div", {
+                  class: "small text-uppercase text-muted fw-bold mb-2",
+                  style: { "letter-spacing": "0.08em" }
+                }, "Good next review", -1)),
+                topFocus.value.length ? (openBlock(), createElementBlock("div", _hoisted_19$2, [
+                  (openBlock(true), createElementBlock(Fragment, null, renderList(topFocus.value.slice(0, 3), (skill) => {
+                    return openBlock(), createElementBlock("div", {
+                      key: skill.skillId,
+                      class: "rounded border p-2 bg-body"
+                    }, [
+                      createBaseVNode("div", _hoisted_20$2, toDisplayString(skill.displayName), 1),
+                      createBaseVNode("div", _hoisted_21$2, toDisplayString(skill.status) + " • " + toDisplayString(skill.confidence) + " confidence • " + toDisplayString(skill.attempts) + " responses ", 1)
+                    ]);
+                  }), 128))
+                ])) : (openBlock(), createElementBlock("div", _hoisted_22$2, "No review-heavy skills yet. That usually means you’re still building a good sample."))
+              ]),
+              createBaseVNode("div", null, [
+                _cache[2] || (_cache[2] = createBaseVNode("div", {
+                  class: "small text-uppercase text-muted fw-bold mb-2",
+                  style: { "letter-spacing": "0.08em" }
+                }, "Getting stronger", -1)),
+                topGrowth.value.length ? (openBlock(), createElementBlock("div", _hoisted_23$2, [
+                  (openBlock(true), createElementBlock(Fragment, null, renderList(topGrowth.value.slice(0, 3), (skill) => {
+                    return openBlock(), createElementBlock("div", {
+                      key: skill.skillId,
+                      class: "rounded border p-2 bg-body"
+                    }, [
+                      createBaseVNode("div", _hoisted_24$2, toDisplayString(skill.displayName), 1),
+                      createBaseVNode("div", _hoisted_25$2, toDisplayString(skill.trend) + " • " + toDisplayString(skill.attempts) + " responses", 1)
+                    ]);
+                  }), 128))
+                ])) : (openBlock(), createElementBlock("div", _hoisted_26$2, "No clear growth trend is standing out yet."))
+              ])
+            ], 64)) : (openBlock(), createElementBlock("div", _hoisted_27$2, [
+              _cache[3] || (_cache[3] = createBaseVNode("div", { class: "fw-semibold mb-1" }, "Momentum will appear after a few sessions", -1)),
+              createBaseVNode("div", _hoisted_28$2, toDisplayString(emptyMomentumCopy.value), 1)
+            ]))
+          ], 64)) : (openBlock(), createElementBlock("div", _hoisted_29$2, toDisplayString(__props.previewMode ? "Try a few preview drills to build this browser’s momentum." : "Try some practice problems to build your momentum!"), 1))
         ])
       ]);
     };
@@ -1552,7 +1629,7 @@ const _sfc_main$3 = {
                   createBaseVNode("button", {
                     class: "btn btn-primary btn-lg",
                     onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("close"))
-                  }, " Explore Topics List "),
+                  }, " Choose Topics & Start "),
                   createBaseVNode("button", {
                     class: "btn btn-outline-secondary",
                     onClick: _cache[1] || (_cache[1] = ($event) => _ctx.$emit("show-help"))
@@ -1560,11 +1637,7 @@ const _sfc_main$3 = {
                     createBaseVNode("i", { class: "bi bi-question-circle me-1" }, null, -1),
                     createTextVNode(" How does it work? ", -1)
                   ])])
-                ]),
-                _cache[7] || (_cache[7] = createBaseVNode("div", { class: "mt-4 pt-2 small text-muted" }, [
-                  createBaseVNode("i", { class: "bi bi-info-circle me-1" }),
-                  createTextVNode(" Agentic build support provided by Google Antigravity, OpenAI Codex ")
-                ], -1))
+                ])
               ])
             ])
           ])) : createCommentVNode("", true)
@@ -1574,7 +1647,7 @@ const _sfc_main$3 = {
     };
   }
 };
-const WelcomeModal = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-eadaafe8"]]);
+const WelcomeModal = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-8229a108"]]);
 var module$5 = {};
 (function main(global, module, isWorker, workerSize) {
   var canUseWorker = !!(global.Worker && global.Blob && global.Promise && global.OffscreenCanvas && global.OffscreenCanvasRenderingContext2D && global.HTMLCanvasElement && global.HTMLCanvasElement.prototype.transferControlToOffscreen && global.URL && global.URL.createObjectURL);
@@ -2306,7 +2379,7 @@ function validateAnswer$1(input, drill) {
   }
   return {
     isCorrect: false,
-    feedback: "Incorrect. Please review the prompt and your answer."
+    feedback: "Not quite. Check the prompt, then try again or reveal a hint."
   };
 }
 module$4.exports = {
@@ -3053,7 +3126,7 @@ function usePracticeSession() {
     }
     if (saveState.value === "saving") {
       saveState.value = "saved";
-      saveMessage.value = "Saved.";
+      saveMessage.value = "Answer saved.";
       window.setTimeout(() => {
         if (saveState.value === "saved") {
           saveState.value = "idle";
@@ -3064,7 +3137,7 @@ function usePracticeSession() {
     }
     if (saveState.value === "error") {
       saveState.value = "saved";
-      saveMessage.value = "Saved.";
+      saveMessage.value = "Answer saved.";
     }
   }
   function ensureResponseQueueReady() {
@@ -3211,7 +3284,7 @@ function usePracticeSession() {
           await deleteQueuedResponses(studentEmail.value, batch.map((entry) => entry.attemptId));
           responseQueue.value.splice(0, batch.length);
           saveState.value = "saved";
-          saveMessage.value = "Saved.";
+          saveMessage.value = "Answer saved.";
           if (true) {
             void bootstrap.loadBootstrap(true);
           }
@@ -3864,7 +3937,7 @@ const _hoisted_23$1 = { class: "card-body p-4" };
 const _hoisted_24$1 = { class: "mt-4 pt-4 border-top" };
 const _hoisted_25$1 = {
   key: 0,
-  class: "col-lg-4"
+  class: "col-lg-4 order-1 order-lg-2"
 };
 const _hoisted_26$1 = {
   class: "sticky-top",
@@ -4250,7 +4323,7 @@ const _sfc_main$2 = {
                 class: "row g-4"
               }, [
                 createBaseVNode("div", {
-                  class: normalizeClass(focusMode.value ? "col-lg-12" : "col-lg-8")
+                  class: normalizeClass([focusMode.value ? "col-lg-12" : "col-lg-8", "order-2", "order-lg-1"])
                 }, [
                   createBaseVNode("div", _hoisted_22$1, [
                     createBaseVNode("div", _hoisted_23$1, [
@@ -4354,7 +4427,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const PracticePage = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-56b8f3a1"]]);
+const PracticePage = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-0390328c"]]);
 var module$3 = { exports: {} };
 const PLACEHOLDER_TOKEN_PATTERN = /\{\{([^}]+)\}\}/g;
 const CANONICAL_BANK_TYPE_OPTIONS = [
@@ -5060,7 +5133,8 @@ const _sfc_main$1 = {
                     createTextVNode(" Go to Full Version ", -1)
                   ])]),
                   _: 1
-                })
+                }),
+                _cache[9] || (_cache[9] = createBaseVNode("div", { class: "small text-muted mt-3" }, " Build support notes: Google Antigravity, OpenAI Codex. ", -1))
               ])
             ]))
           ])
@@ -5069,7 +5143,7 @@ const _sfc_main$1 = {
     };
   }
 };
-const AboutPage = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-b25ae9a7"]]);
+const AboutPage = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-23577192"]]);
 const assets = [{ "file": "practice-setup-full-catalog.png", "alt": "Autodrills practice setup showing the example-high v3 catalog in the full version", "caption": "Practice setup with the live example-high v3 catalog visible.", "sourceRoute": "/practice", "runMode": "local", "viewport": { "width": 1440, "height": 1200 }, "sanitized": true }, { "file": "practice-active-session.png", "alt": "Autodrills practice session showing a prompt and the example-high v3 student dashboard", "caption": "Active practice session using live example-high v3 student data.", "sourceRoute": "/practice", "runMode": "local", "viewport": { "width": 1440, "height": 1200 }, "sanitized": true }, { "file": "teacher-analytics-dashboard.png", "alt": "Teacher analytics dashboard with example-high v3 student data", "caption": "Teacher analytics dashboard using live example-high v3 data.", "sourceRoute": "/admin/analytics", "runMode": "local", "viewport": { "width": 1440, "height": 1200 }, "sanitized": true }, { "file": "admin-drills-triage.png", "alt": "Admin drill triage view with example-high v3 lessons", "caption": "Admin drill triage and lesson editor view using live example-high v3 drills.", "sourceRoute": "/admin/drills", "runMode": "local", "viewport": { "width": 1440, "height": 1200 }, "sanitized": true }];
 const assetsManifest = {
   assets
@@ -5100,7 +5174,8 @@ const _hoisted_2 = { class: "row g-4" };
 const _hoisted_3 = { class: "col-lg-7" };
 const _hoisted_4 = {
   id: "setup-help",
-  class: "card panel-card shadow-sm border-0 mb-4"
+  class: "card panel-card shadow-sm border-0 mb-4",
+  tabindex: "-1"
 };
 const _hoisted_5 = { class: "card-body p-4" };
 const _hoisted_6 = { class: "row g-3" };
@@ -5193,14 +5268,40 @@ const _sfc_main = {
     function formatCount(value) {
       return Number.isFinite(Number(value)) ? Number(value).toLocaleString() : "0";
     }
+    function scrollToSetupHelp() {
+      const target = document.getElementById("setup-help");
+      if (!target) {
+        return;
+      }
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1, [
-        _cache[8] || (_cache[8] = createStaticVNode('<section class="card panel-card shadow-sm border-0 mb-4" data-v-9a7375a6><div class="card-body p-4 p-md-5" data-v-9a7375a6><div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-start gap-3" data-v-9a7375a6><div class="flex-grow-1" data-v-9a7375a6><p class="text-uppercase text-muted small fw-semibold mb-2" data-v-9a7375a6>Full Version / Upgrade</p><h1 class="display-6 fw-bold mb-3" data-v-9a7375a6>The full version is free, but it uses Google Apps Script and Google Sheets behind the scenes.</h1><p class="lead mb-0" data-v-9a7375a6> The preview gives you a safe curated sample. The full version unlocks the complete drill library, teacher tools, and classroom persistence once the Google Apps Script and Google Sheets setup is in place. </p></div><div class="setup-callout border rounded-3 p-3 bg-body-tertiary" data-v-9a7375a6><div class="fw-semibold mb-1" data-v-9a7375a6>Need setup help?</div><p class="small text-muted mb-3" data-v-9a7375a6> Ask Orion Smith at East Lansing High School to connect the full GAS/Sheets version and confirm the deployment settings. </p><a class="btn btn-primary btn-sm" href="#setup-help" data-v-9a7375a6>Request setup help</a></div></div></div></section>', 1)),
+        createBaseVNode("section", { class: "card panel-card shadow-sm border-0 mb-4" }, [
+          createBaseVNode("div", { class: "card-body p-4 p-md-5" }, [
+            createBaseVNode("div", { class: "d-flex flex-column flex-lg-row justify-content-between align-items-lg-start gap-3" }, [
+              _cache[2] || (_cache[2] = createBaseVNode("div", { class: "flex-grow-1" }, [
+                createBaseVNode("p", { class: "text-uppercase text-muted small fw-semibold mb-2" }, "Full Version / Upgrade"),
+                createBaseVNode("h1", { class: "display-6 fw-bold mb-3" }, "Turn the curated preview into a classroom-ready AP CSA practice space."),
+                createBaseVNode("p", { class: "lead mb-0" }, " The preview gives you a safe curated sample. The full version keeps the same practice flow, but it unlocks the complete drill library, teacher tools, and classroom persistence through Google Apps Script and Google Sheets. ")
+              ], -1)),
+              createBaseVNode("div", { class: "setup-callout border rounded-3 p-3 bg-body-tertiary" }, [
+                _cache[0] || (_cache[0] = createBaseVNode("div", { class: "fw-semibold mb-1" }, "Need to set it up?", -1)),
+                _cache[1] || (_cache[1] = createBaseVNode("p", { class: "small text-muted mb-3" }, " Ask Orion Smith at East Lansing High School to connect the classroom copy and confirm the Google Apps Script plus Google Sheets deployment. ", -1)),
+                createBaseVNode("button", {
+                  type: "button",
+                  class: "btn btn-primary btn-sm",
+                  onClick: scrollToSetupHelp
+                }, " See what setup enables ")
+              ])
+            ])
+          ])
+        ]),
         createBaseVNode("div", _hoisted_2, [
           createBaseVNode("div", _hoisted_3, [
             createBaseVNode("section", _hoisted_4, [
               createBaseVNode("div", _hoisted_5, [
-                _cache[0] || (_cache[0] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "What the full version adds", -1)),
+                _cache[3] || (_cache[3] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "What the full version adds", -1)),
                 createBaseVNode("div", _hoisted_6, [
                   (openBlock(), createElementBlock(Fragment, null, renderList(fullVersionSections, (section) => {
                     return createBaseVNode("div", {
@@ -5218,8 +5319,8 @@ const _sfc_main = {
             ]),
             createBaseVNode("section", _hoisted_10, [
               createBaseVNode("div", _hoisted_11, [
-                _cache[1] || (_cache[1] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Full version topic-skill list", -1)),
-                _cache[2] || (_cache[2] = createBaseVNode("p", { class: "text-muted mb-4" }, " This list is generated at build time from the full version catalog, so the topic totals and skill counts stay accurate when the preview bundle is rebuilt. ", -1)),
+                _cache[4] || (_cache[4] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Full version topic-skill list", -1)),
+                _cache[5] || (_cache[5] = createBaseVNode("p", { class: "text-muted mb-4" }, " This list is generated at build time from the full version catalog, so the topic totals and skill counts stay accurate when the preview bundle is rebuilt. ", -1)),
                 createBaseVNode("div", {
                   class: "generated-topic-skill-list",
                   innerHTML: unref(fullVersionTopicSkillListHtml)
@@ -5228,7 +5329,7 @@ const _sfc_main = {
             ]),
             createBaseVNode("section", _hoisted_13, [
               createBaseVNode("div", _hoisted_14, [
-                _cache[5] || (_cache[5] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Preview versus full drill library", -1)),
+                _cache[8] || (_cache[8] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Preview versus full drill library", -1)),
                 createBaseVNode("div", _hoisted_15, [
                   (openBlock(), createElementBlock(Fragment, null, renderList(comparisonRows, (row) => {
                     return createBaseVNode("div", {
@@ -5239,11 +5340,11 @@ const _sfc_main = {
                         createBaseVNode("div", _hoisted_17, toDisplayString(row.label), 1),
                         createBaseVNode("div", _hoisted_18, [
                           createBaseVNode("div", _hoisted_19, toDisplayString(formatCount(row.preview)), 1),
-                          _cache[3] || (_cache[3] = createBaseVNode("div", { class: "text-muted small mb-1" }, "preview", -1))
+                          _cache[6] || (_cache[6] = createBaseVNode("div", { class: "text-muted small mb-1" }, "preview", -1))
                         ]),
                         createBaseVNode("div", _hoisted_20, [
                           createBaseVNode("div", _hoisted_21, toDisplayString(formatCount(row.full)), 1),
-                          _cache[4] || (_cache[4] = createBaseVNode("div", { class: "text-muted small mb-1" }, "full", -1))
+                          _cache[7] || (_cache[7] = createBaseVNode("div", { class: "text-muted small mb-1" }, "full", -1))
                         ]),
                         createBaseVNode("div", _hoisted_22, toDisplayString(row.note), 1)
                       ])
@@ -5256,7 +5357,7 @@ const _sfc_main = {
           createBaseVNode("div", _hoisted_23, [
             createBaseVNode("section", _hoisted_24, [
               createBaseVNode("div", _hoisted_25, [
-                _cache[6] || (_cache[6] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Sanitized screenshots", -1)),
+                _cache[9] || (_cache[9] = createBaseVNode("h2", { class: "h5 fw-bold mb-3" }, "Sanitized screenshots", -1)),
                 createBaseVNode("div", _hoisted_26, [
                   (openBlock(true), createElementBlock(Fragment, null, renderList(unref(screenshotAssets), (shot) => {
                     return openBlock(), createElementBlock("figure", {
@@ -5277,14 +5378,14 @@ const _sfc_main = {
                 ])
               ])
             ]),
-            _cache[7] || (_cache[7] = createStaticVNode('<section class="card panel-card shadow-sm border-0 mb-4" data-v-9a7375a6><div class="card-body p-4" data-v-9a7375a6><h2 class="h5 fw-bold mb-3" data-v-9a7375a6>What to request from Orion Smith</h2><ul class="small text-muted ps-3 mb-3" data-v-9a7375a6><li data-v-9a7375a6>Connect the classroom full version.</li><li data-v-9a7375a6>Confirm the public preview screenshots are safe to ship.</li><li data-v-9a7375a6>Review any setup or identity questions before publishing the full site.</li></ul><a href="#setup-workbook-coming-soon" class="btn btn-outline-primary btn-sm" data-v-9a7375a6>Copyable setup workbook coming soon</a><div class="small text-muted mt-2" data-v-9a7375a6> The full version stays free, but it does require setup and a classroom copy of the Google Sheets workbook. </div></div></section>', 1))
+            _cache[10] || (_cache[10] = createStaticVNode('<section class="card panel-card shadow-sm border-0 mb-4" data-v-950295aa><div class="card-body p-4" data-v-950295aa><h2 class="h5 fw-bold mb-3" data-v-950295aa>What to request from Orion Smith</h2><ul class="small text-muted ps-3 mb-3" data-v-950295aa><li data-v-950295aa>Connect the classroom full version.</li><li data-v-950295aa>Confirm the public preview screenshots are safe to ship.</li><li data-v-950295aa>Review any setup or identity questions before publishing the full site.</li></ul><a href="#setup-workbook-coming-soon" class="btn btn-outline-primary btn-sm" data-v-950295aa>Copyable setup workbook coming soon</a><div class="small text-muted mt-2" data-v-950295aa> The full version stays free, but it does require setup and a classroom copy of the Google Sheets workbook. </div></div></section>', 1))
           ])
         ])
       ]);
     };
   }
 };
-const UpgradePage = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-9a7375a6"]]);
+const UpgradePage = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-950295aa"]]);
 const history = createWebHashHistory();
 const previewRoutes = [
   { path: "/", redirect: "/practice" },
@@ -5299,4 +5400,4 @@ const router = createRouter({
 export {
   router as default
 };
-//# sourceMappingURL=router-DSIBkR0r.js.map
+//# sourceMappingURL=router-Cwl9w8wG.js.map

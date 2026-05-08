@@ -1,10 +1,10 @@
 /**
- * Autodrills Preview Asset: App-2zPLrKfO.js
+ * Autodrills Preview Asset: App-DNPljQF9.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-import { _ as _export_sfc, u as useAppBootstrap, R as RouterLink, a as RouterView } from "./_plugin-vue_export-helper-mPWG5G5X.js";
+import { _ as _export_sfc, u as useAppBootstrap, a as useRoute, R as RouterLink, b as RouterView } from "./_plugin-vue_export-helper-CyL4RPqw.js";
 import { o as onMounted, a as onUnmounted, r as ref, b as onBeforeUnmount, w as watchEffect, c as openBlock, d as createElementBlock, e as createBaseVNode, n as normalizeClass, F as Fragment, f as renderList, u as unref, g as createTextVNode, t as toDisplayString, h as createCommentVNode, i as createVNode, j as withCtx, k as computed, l as createBlock } from "./runtime-core.esm-bundler-C21_olk_.js";
 import "./indexedDbClient-BhXpRefM.js";
 const SESSION_STORAGE_KEY = "autodrills.simulate-gas-latency";
@@ -210,7 +210,8 @@ const _sfc_main = {
   setup(__props) {
     const bootstrap = useAppBootstrap();
     const { isNavbarVisible } = useAutoHidingNavbar();
-    const showLatencyToggle = false;
+    useRoute();
+    const showLatencyToggle = computed(() => false);
     const gasLatencySimulationEnabled = ref(isGasLatencySimulationEnabled());
     const previewFocusMode = ref(typeof window !== "undefined" ? window.localStorage.getItem("practice-focus-mode") === "true" : false);
     const previewNavItems = [
@@ -279,7 +280,7 @@ const _sfc_main = {
                   }, 1032, ["to"]);
                 }), 128))
               ]),
-              unref(showLatencyToggle) ? (openBlock(), createElementBlock("button", {
+              showLatencyToggle.value ? (openBlock(), createElementBlock("button", {
                 key: 0,
                 class: normalizeClass(["btn btn-sm", gasLatencySimulationEnabled.value ? "btn-warning" : "btn-outline-secondary"]),
                 "aria-pressed": gasLatencySimulationEnabled.value,
@@ -311,8 +312,8 @@ const _sfc_main = {
     };
   }
 };
-const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-c9220848"]]);
+const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-de89fbbd"]]);
 export {
   App as default
 };
-//# sourceMappingURL=App-2zPLrKfO.js.map
+//# sourceMappingURL=App-DNPljQF9.js.map

@@ -1,5 +1,5 @@
 /**
- * Autodrills Preview Asset: App-Cqw4cbS5.css
+ * Autodrills Preview Asset: App-BBYvozVK.css
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
@@ -23,12 +23,12 @@
   text-align: center;
 }
 
-.app-shell[data-v-c9220848] {
+.app-shell[data-v-de89fbbd] {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-.navbar[data-v-c9220848] {
+.navbar[data-v-de89fbbd] {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,14 +37,14 @@
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   transform: translateY(0);
 }
-.navbar-preview-static[data-v-c9220848] {
+.navbar-preview-static[data-v-de89fbbd] {
   position: sticky;
   z-index: 1030;
 }
-.navbar-hidden[data-v-c9220848] {
+.navbar-hidden[data-v-de89fbbd] {
   transform: translateY(-100%);
 }
-.navbar-trigger[data-v-c9220848] {
+.navbar-trigger[data-v-de89fbbd] {
   position: fixed;
   top: 0;
   left: 0;
@@ -52,15 +52,15 @@
   height: 15px;
   z-index: 1060;
 }
-main[data-v-c9220848] {
+main[data-v-de89fbbd] {
   padding-top: 1rem;
 }
-.preview-brand[data-v-c9220848] {
+.preview-brand[data-v-de89fbbd] {
   display: flex;
   flex-direction: column;
   line-height: 1.05;
 }
-.brand-name[data-v-c9220848] {
+.brand-name[data-v-de89fbbd] {
   font-size: 1.08rem;
   font-weight: 700;
 }
