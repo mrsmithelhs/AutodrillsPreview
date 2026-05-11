@@ -1,10 +1,10 @@
 /**
- * Autodrills Preview Asset: App-DNPljQF9.js
+ * Autodrills Preview Asset: App-1vs5eVO9.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-import { _ as _export_sfc, u as useAppBootstrap, a as useRoute, R as RouterLink, b as RouterView } from "./_plugin-vue_export-helper-CyL4RPqw.js";
+import { _ as _export_sfc, u as useAppBootstrap, a as useRoute, R as RouterLink, b as RouterView } from "./_plugin-vue_export-helper-D-TdMnaI.js";
 import { o as onMounted, a as onUnmounted, r as ref, b as onBeforeUnmount, w as watchEffect, c as openBlock, d as createElementBlock, e as createBaseVNode, n as normalizeClass, F as Fragment, f as renderList, u as unref, g as createTextVNode, t as toDisplayString, h as createCommentVNode, i as createVNode, j as withCtx, k as computed, l as createBlock } from "./runtime-core.esm-bundler-C21_olk_.js";
 import "./indexedDbClient-BhXpRefM.js";
 const SESSION_STORAGE_KEY = "autodrills.simulate-gas-latency";
@@ -316,4 +316,4 @@ const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-de89fb
 export {
   App as default
 };
-//# sourceMappingURL=App-DNPljQF9.js.map
+//# sourceMappingURL=App-1vs5eVO9.js.map

@@ -1,5 +1,5 @@
 /**
- * Autodrills Preview Asset: substitutions-DfevYuFc.js
+ * Autodrills Preview Asset: substitutions-BboDPcLC.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
@@ -47,6 +47,26 @@ function normalizeObject(value) {
     return {};
   }
   return clone$1(value);
+}
+function normalizeSelectionSignatureToken(token = "") {
+  const text = normalizeText(token);
+  if (!text) {
+    return "";
+  }
+  if (/^(unit|topic|cluster):/.test(text)) {
+    return text;
+  }
+  if (/^unit-/i.test(text)) {
+    return `unit:${text}`;
+  }
+  if (/^topic-/i.test(text)) {
+    return `topic:${text}`;
+  }
+  return text;
+}
+function normalizeSelectionSignatureValue(value = "") {
+  const source = Array.isArray(value) ? value : normalizeText(value) ? String(value).split(",") : [];
+  return [...new Set(source.map((token) => normalizeSelectionSignatureToken(token)).filter(Boolean))].sort().join(",");
 }
 function coerceAttemptContextPayload(value) {
   if (value === void 0 || value === null || value === "") {
@@ -291,7 +311,6 @@ function validateAttemptContextPayload(value, row = {}) {
     ["attempt.studentId", payload.attempt.studentId, row.studentId],
     ["attempt.sessionId", payload.attempt.sessionId, row.sessionId],
     ["drill.drillId", payload.drill.drillId, row.drillId],
-    ["selection.selectedClusterSignature", payload.selection.selectedClusterSignature, row.selectedClusterSignature],
     ["catalog.catalogVersion", payload.catalog.catalogVersion, row.catalogVersion],
     ["catalog.planVersion", payload.catalog.planVersion, row.planVersion],
     ["catalog.validationVersion", payload.catalog.validationVersion, row.validationVersion],
@@ -308,6 +327,13 @@ function validateAttemptContextPayload(value, row = {}) {
     ["outcome.answerRevealed", payload.outcome.answerRevealed, row.answerRevealed],
     ["outcome.completionStatus", payload.outcome.completionStatus, row.completionStatus]
   ];
+  const selectionSignature = normalizeSelectionSignatureValue(payload.selection.selectedClusterSignature);
+  const rowSelectionSignature = normalizeSelectionSignatureValue(row.selectedClusterSignature);
+  if (row.selectedClusterSignature !== void 0 && row.selectedClusterSignature !== null && row.selectedClusterSignature !== "") {
+    if (selectionSignature !== rowSelectionSignature) {
+      errors.push("selection.selectedClusterSignature does not match the response row.");
+    }
+  }
   for (const [field, actual, expected] of comparisons) {
     const rowHasValue = expected !== void 0 && expected !== null && expected !== "";
     if (!rowHasValue) {
@@ -350,6 +376,8 @@ module$2.exports = {
   inspectAttemptContextPayload,
   normalizeAttemptContextPayload,
   parseAttemptContextPayload,
+  normalizeSelectionSignatureToken,
+  normalizeSelectionSignatureValue,
   serializeAttemptContextPayload,
   validateAttemptContextPayload
 };
@@ -496,4 +524,4 @@ export {
   attemptContextModule as b,
   substitutionsModule as s
 };
-//# sourceMappingURL=substitutions-DfevYuFc.js.map
+//# sourceMappingURL=substitutions-BboDPcLC.js.map

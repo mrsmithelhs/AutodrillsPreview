@@ -1,10 +1,10 @@
 /**
- * Autodrills Preview Asset: _plugin-vue_export-helper-CyL4RPqw.js
+ * Autodrills Preview Asset: _plugin-vue_export-helper-D-TdMnaI.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./previewStatic-DTtslmDu.js","./substitutions-DfevYuFc.js","./drillSelection-BI-qkrnO.js","./indexedDbClient-BhXpRefM.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./previewStatic-CNqSZoDd.js","./substitutions-BboDPcLC.js","./drillSelection-Zqn8DlrJ.js","./indexedDbClient-BhXpRefM.js"])))=>i.map(i=>d[i]);
 import { u as unref, W as shallowReactive, X as shallowRef, Y as defineComponent, m as nextTick, Z as reactive, $ as inject, S as h, k as computed, p as watch, r as ref, a0 as provide, _ as __vitePreload } from "./runtime-core.esm-bundler-C21_olk_.js";
 import { i as isIndexedDbAvailable, A as AUTODRILLS_BROWSER_CACHE_STORE_NAMES, b as AUTODRILLS_BROWSER_CACHE_SCHEMA_VERSION, a as isStorageError, o as openAutodrillsDb, r as resetAutodrillsDbCache } from "./indexedDbClient-BhXpRefM.js";
 const isBrowser = typeof document !== "undefined";
@@ -1539,7 +1539,7 @@ function useRoute(_name) {
   return inject(routeLocationKey);
 }
 const previewClient = (await __vitePreload(async () => {
-  const { default: __vite_default__ } = await import("./previewStatic-DTtslmDu.js");
+  const { default: __vite_default__ } = await import("./previewStatic-CNqSZoDd.js");
   return { default: __vite_default__ };
 }, true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url)).default;
 const apiClient = previewClient;
@@ -1970,4 +1970,4 @@ export {
   createWebHashHistory as e,
   useAppBootstrap as u
 };
-//# sourceMappingURL=_plugin-vue_export-helper-CyL4RPqw.js.map
+//# sourceMappingURL=_plugin-vue_export-helper-D-TdMnaI.js.map

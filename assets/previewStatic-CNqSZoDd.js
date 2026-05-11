@@ -1,11 +1,11 @@
 /**
- * Autodrills Preview Asset: previewStatic-DTtslmDu.js
+ * Autodrills Preview Asset: previewStatic-CNqSZoDd.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-import { a as __CJS__export_default__$2, b as attemptContextModule$1, _ as __CJS__export_default__$4, s as substitutionsModule } from "./substitutions-DfevYuFc.js";
-import { _ as __CJS__export_default__$3, d as drillSelectionModule } from "./drillSelection-BI-qkrnO.js";
+import { a as __CJS__export_default__$2, b as attemptContextModule$1, _ as __CJS__export_default__$4, s as substitutionsModule } from "./substitutions-BboDPcLC.js";
+import { _ as __CJS__export_default__$3, d as drillSelectionModule } from "./drillSelection-Zqn8DlrJ.js";
 import { o as openAutodrillsDb, A as AUTODRILLS_BROWSER_CACHE_STORE_NAMES, a as isStorageError, i as isIndexedDbAvailable } from "./indexedDbClient-BhXpRefM.js";
 var module$2 = { exports: {} };
 const attemptContextModule = typeof require === "function" ? __CJS__export_default__$2 || attemptContextModule$1 : typeof globalThis !== "undefined" ? globalThis : {};
@@ -1746,11 +1746,20 @@ function buildSessionRecord(catalog = {}, payload = {}, preparedDrills = [], vis
   const planVersion = PREVIEW_PLAN_VERSION;
   const catalogVersion = getCatalogVersion(catalog);
   const createdAt = (/* @__PURE__ */ new Date()).toISOString();
-  const cursor = visibleDrills.length + reserveDrills.length;
-  const mixSummary = buildPracticeMixSummary(preparedDrills, {
+  const targetSessionLength = Math.max(
+    1,
+    Number.parseInt(payload.targetSessionLength || payload.sessionLength || preparedDrills.length, 10) || preparedDrills.length
+  );
+  const plannedDrills = preparedDrills.slice(0, targetSessionLength);
+  const plannedVisibleCount = Math.min(visibleDrills.length, plannedDrills.length);
+  const plannedReserveCount = Math.min(reserveDrills.length, Math.max(plannedDrills.length - plannedVisibleCount, 0));
+  const plannedVisibleDrills = plannedDrills.slice(0, plannedVisibleCount);
+  const plannedReserveDrills = plannedDrills.slice(plannedVisibleCount, plannedVisibleCount + plannedReserveCount);
+  const cursor = plannedVisibleDrills.length + plannedReserveDrills.length;
+  const mixSummary = buildPracticeMixSummary(plannedDrills, {
     skillMetadataById: buildSkillMetadataById(catalog),
-    previewCount: visibleDrills.length,
-    noveltyFloorCount: Math.min(Math.max(visibleDrills.length + reserveDrills.length, 1), Math.max(1, preparedDrills.length))
+    previewCount: plannedVisibleDrills.length,
+    noveltyFloorCount: Math.min(Math.max(plannedVisibleDrills.length + plannedReserveDrills.length, 1), Math.max(1, plannedDrills.length))
   });
   const record = {
     sessionId,
@@ -1770,12 +1779,13 @@ function buildSessionRecord(catalog = {}, payload = {}, preparedDrills = [], vis
     cursor,
     sliceSize: Math.max(1, Number.parseInt(payload.sliceSize || PREVIEW_DRILL_BATCH_SIZE, 10) || 5),
     reserveSize: PREVIEW_RESERVE_SIZE,
-    drills: preparedDrills,
+    drills: plannedDrills,
+    plannedDrillCount: plannedDrills.length,
     mixSummary: {
       ...mixSummary,
-      noveltyFloorCount: Math.min(Math.max(visibleDrills.length + reserveDrills.length, 1), Math.max(1, preparedDrills.length)),
-      visibleCount: visibleDrills.length,
-      reserveCount: reserveDrills.length
+      noveltyFloorCount: Math.min(Math.max(plannedVisibleDrills.length + plannedReserveDrills.length, 1), Math.max(1, plannedDrills.length)),
+      visibleCount: plannedVisibleDrills.length,
+      reserveCount: plannedReserveDrills.length
     },
     summaryFreshness: cloneValue(PREVIEW_SUMMARY_FRESHNESS)
   };
@@ -1878,8 +1888,13 @@ async function startPracticeSession(payload = {}) {
   const preparedDrills = preparePreviewDrills(catalog, orderedDrills);
   const sliceSize = Math.max(1, Number.parseInt(payload.sliceSize || PREVIEW_DRILL_BATCH_SIZE, 10) || 5);
   const reserveSize = Math.min(PREVIEW_RESERVE_SIZE, sliceSize);
-  const { visibleDrills, reserveDrills, remainingDrills } = splitSessionDrills(preparedDrills, sliceSize, reserveSize);
-  const session = buildSessionRecord(catalog, payload, preparedDrills, visibleDrills, reserveDrills);
+  const targetSessionLength = Math.max(
+    1,
+    Number.parseInt(payload.targetSessionLength || payload.sessionLength || preparedDrills.length, 10) || preparedDrills.length
+  );
+  const plannedDrills = preparedDrills.slice(0, targetSessionLength);
+  const { visibleDrills, reserveDrills, remainingDrills } = splitSessionDrills(plannedDrills, sliceSize, reserveSize);
+  const session = buildSessionRecord(catalog, payload, plannedDrills, visibleDrills, reserveDrills);
   return {
     sessionId: session.sessionId,
     planVersion: session.planVersion,
@@ -1889,7 +1904,7 @@ async function startPracticeSession(payload = {}) {
     selectedUnitIds: session.selectedUnitIds,
     selectedTopicIds: session.selectedTopicIds,
     cursor: session.cursor,
-    remainingPlannedCount: Math.max(preparedDrills.length - session.cursor, 0),
+    remainingPlannedCount: Math.max(session.drills.length - session.cursor, 0),
     summaryFreshness: session.summaryFreshness,
     mixSummary: session.mixSummary,
     drills: visibleDrills,
@@ -2019,4 +2034,4 @@ const previewStatic = {
 export {
   previewStatic as default
 };
-//# sourceMappingURL=previewStatic-DTtslmDu.js.map
+//# sourceMappingURL=previewStatic-CNqSZoDd.js.map

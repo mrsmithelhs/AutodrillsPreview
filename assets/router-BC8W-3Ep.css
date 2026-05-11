@@ -1,5 +1,5 @@
 /**
- * Autodrills Preview Asset: router-DxI7y-Tm.css
+ * Autodrills Preview Asset: router-BC8W-3Ep.css
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
@@ -188,19 +188,19 @@
   transform: translateY(20px);
 }
 
-.practice-page[data-v-0390328c] {
+.practice-page[data-v-68e9b546] {
   max-width: 1200px;
   margin: 0 auto;
 }
-.focus-mode[data-v-0390328c] {
+.focus-mode[data-v-68e9b546] {
   max-width: 900px;
 }
-.session-container[data-v-0390328c] {
+.session-container[data-v-68e9b546] {
   min-height: 80vh;
 }
 
 /* Ensure sticky sidebar behaves well */
-.sticky-top[data-v-0390328c] {
+.sticky-top[data-v-68e9b546] {
   transition: all 0.3s ease;
 }
 

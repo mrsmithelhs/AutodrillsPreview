@@ -1,5 +1,5 @@
 /**
- * Autodrills Preview Asset: drillSelection-BI-qkrnO.js
+ * Autodrills Preview Asset: drillSelection-Zqn8DlrJ.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
@@ -70,8 +70,8 @@ function filterDrills(drills, options = {}) {
   const skillMetadataById = options.skillMetadataById || null;
   return asArray(drills).filter((drill) => drillMatchesSelection(drill, options, skillMetadataById));
 }
-function shuffled(drills) {
-  const copy = [...drills];
+function shuffled(items) {
+  const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
@@ -103,4 +103,4 @@ export {
   __CJS__export_default__ as _,
   drillSelectionModule as d
 };
-//# sourceMappingURL=drillSelection-BI-qkrnO.js.map
+//# sourceMappingURL=drillSelection-Zqn8DlrJ.js.map
