@@ -1,10 +1,10 @@
 /**
- * Autodrills Preview Asset: index-Btl6vj8T.js
+ * Autodrills Preview Asset: index-s3_2ZeBq.js
  * 
  * Runs: Browser-side on the public sample site.
  * Responsibility: Part of the bundled preview application.
  */
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./App-1vs5eVO9.js","./_plugin-vue_export-helper-D-TdMnaI.js","./runtime-core.esm-bundler-C21_olk_.js","./indexedDbClient-BhXpRefM.js","./App-BBYvozVK.css","./router-CWAxS8lA.js","./runtime-dom.esm-bundler-BMkBX2kS.js","./substitutions-BboDPcLC.js","./drillSelection-Zqn8DlrJ.js","./router-BC8W-3Ep.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./App-1vs5eVO9.js","./_plugin-vue_export-helper-D-TdMnaI.js","./runtime-core.esm-bundler-C21_olk_.js","./indexedDbClient-BhXpRefM.js","./App-BBYvozVK.css","./router-PNh3fOvh.js","./runtime-dom.esm-bundler-BMkBX2kS.js","./substitutions-BboDPcLC.js","./drillSelection-Zqn8DlrJ.js","./router-BnIWn7fy.css"])))=>i.map(i=>d[i]);
 import { _ as __vitePreload } from "./runtime-core.esm-bundler-C21_olk_.js";
 import { c as createApp } from "./runtime-dom.esm-bundler-BMkBX2kS.js";
 import { _ as __CJS__export_default__, d as drillSelectionModule } from "./drillSelection-Zqn8DlrJ.js";
@@ -2044,7 +2044,7 @@ if (!globalThis.drillSelection) {
 }
 const [{ default: App }, { default: router }] = await Promise.all([
   __vitePreload(() => import("./App-1vs5eVO9.js"), true ? __vite__mapDeps([0,1,2,3,4]) : void 0, import.meta.url),
-  __vitePreload(() => import("./router-CWAxS8lA.js"), true ? __vite__mapDeps([5,1,2,3,6,7,8,9]) : void 0, import.meta.url)
+  __vitePreload(() => import("./router-PNh3fOvh.js"), true ? __vite__mapDeps([5,1,2,3,6,7,8,9]) : void 0, import.meta.url)
 ]);
 createApp(App).use(router).mount("#app");
-//# sourceMappingURL=index-Btl6vj8T.js.map
+//# sourceMappingURL=index-s3_2ZeBq.js.map
